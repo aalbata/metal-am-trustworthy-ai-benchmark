@@ -1,0 +1,16 @@
+condition_id,family,severity,groups,macro_f1_dec,macro_f1_same,macro_f1_inc,balanced_accuracy_dec,balanced_accuracy_same,balanced_accuracy_inc,auroc_dec,auroc_same,auroc_inc
+gaussian_intensity_noise__S1,gaussian_intensity_noise,S1,32,23,1,8,20,1,11,28,0,4
+gaussian_intensity_noise__S2,gaussian_intensity_noise,S2,32,28,0,4,27,0,5,29,0,3
+gaussian_intensity_noise__S3,gaussian_intensity_noise,S3,32,26,0,6,30,0,2,30,0,2
+gaussian_blur__S1,gaussian_blur,S1,32,21,0,11,20,0,12,23,0,9
+gaussian_blur__S2,gaussian_blur,S2,32,23,0,9,26,0,6,26,0,6
+gaussian_blur__S3,gaussian_blur,S3,32,27,0,5,29,0,3,30,0,2
+brightness_attenuation__S1,brightness_attenuation,S1,32,25,0,7,26,0,6,28,0,4
+brightness_attenuation__S2,brightness_attenuation,S2,32,27,0,5,28,0,4,27,0,5
+brightness_attenuation__S3,brightness_attenuation,S3,32,29,0,3,29,0,3,29,0,3
+contrast_reduction__S1,contrast_reduction,S1,32,16,1,15,13,1,18,23,0,9
+contrast_reduction__S2,contrast_reduction,S2,32,19,0,13,18,0,14,25,0,7
+contrast_reduction__S3,contrast_reduction,S3,32,24,0,8,24,0,8,26,0,6
+jpeg_compression__S1,jpeg_compression,S1,32,20,1,11,22,1,9,24,0,8
+jpeg_compression__S2,jpeg_compression,S2,32,21,0,11,22,0,10,29,0,3
+jpeg_compression__S3,jpeg_compression,S3,32,27,0,5,27,0,5,29,0,3

@@ -1,0 +1,7 @@
+study_id,eligible,reason
+F003,N:E1,"Full text: single laser tracks scanned on a solid 42CrMo plate without powder, wire or layers, with labelled data from a laser welding model; no additive process (Experiment setup, p. e1686)"
+F010,N:E1,"Full text: all 4900 samples are thermodynamic simulations with furnace, air and ice-brine cooling rates that the authors state do not represent DED; no AM process data"
+F049,N:E2,"Full text: residual stresses and distortions studied with experiments and FEM; machine learning named only as future work (Research limitations/implications)"
+F052,N:E3,"Abstract and publisher page: article type Review Article"
+G018,N:E7,"Abstract and publisher page: finite-element simulation only; ML named as future work"
+G024,N:E4,"Venue peer review could not be verified (International Journal of Engineering Development and Research)"

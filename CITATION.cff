@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article and the dataset."
+type: software
+title: "Trustworthy Artificial Intelligence in Metal Additive Manufacturing through a Critical Survey and a Controlled Benchmark"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/aalbata/metal-am-trustworthy-ai-benchmark"
+authors:
+  - family-names: "Al Bataineh"
+    given-names: "Ali"
+    orcid: "https://orcid.org/0000-0001-9530-7950"
+  - family-names: "Vamsi"
+    given-names: "Bandi"
+references:
+  - type: dataset
+    title: "Annotated Image Dataset for defects detection in Laser Powder Bed Fusion"
+    authors:
+      - family-names: "Yin"
+        given-names: "Xinyi"
+      - family-names: "Akmal"
+        given-names: "Jan Sher"
+      - family-names: "Salmi"
+        given-names: "Mika"
+      - family-names: "Björkstrand"
+        given-names: "Roy"
+    publisher:
+      name: "Zenodo"
+    doi: "10.5281/zenodo.14996806"
+    year: 2025
+    license: CC-BY-4.0

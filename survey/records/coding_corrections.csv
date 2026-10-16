@@ -1,0 +1,125 @@
+study_id,indicator,value,reason
+G031,heldout_material,True,"Verification: run 4 trains on Al6061 only and tests on datasets 7 and 8, dataset 8 being the only AlSi10Mg run (Tables 1-3)"
+G046,simulation_data_only,True,"Verification: all data are FEA or PDE results (Sec. 2.2, Sec. 4)"
+G049,simulation_data_only,False,Verification: targets are 54 measured cube densities (Table I)
+G032,split_heldout_condition,False,"Verification: the 3 held-out walls are the early-stopping set; no independent test (Results and Discussion, ANN paragraph)"
+G032,split_random_only,False,"Rule: 15 of 18 walls for training and 3 for validation, selection not stated (Results and Discussion, ANN paragraph, p. 406)"
+G032,split_beyond_random,False,Follows from split recoding
+G018_rep61,split_heldout_condition,False,"Verification: 75/25 split of the 16 Taguchi samples, one per parameter set, drawn from the same design as the training samples, so not a held-out-condition test (Predictive modeling)"
+G018_rep61,split_random_only,False,"Rule: SVR 13/3, RFR 12/4 and ANN 75/25 splits of the 16 Taguchi samples, selection not stated (Predictive modeling; Neural network)"
+G018_rep61,split_beyond_random,False,Follows from split recoding
+G037,variability_reported,False,"Rule: the GPR 95% interval is predictive uncertainty and the +/- values refer to mechanical tests (Sec. 3.3, Table 5); no repeated runs, seeds or folds"
+G046,explanation_any,False,"Rule: a physics-informed loss is a modelling constraint, not an explanation method"
+G046,explanation_validated,False,Follows from explanation rule
+G046,explanation_qualitative_only,False,Follows from explanation rule
+G051,explanation_any,False,"Rule: a physics-informed loss is a modelling constraint, not an explanation method"
+G051,explanation_validated,False,Follows from explanation rule
+G051,explanation_qualitative_only,False,Follows from explanation rule
+G038,task_cat,property or microstructure prediction,Verification: task is transformation-temperature (property) prediction
+G037,input_cat,process parameters or features,Verification: inputs are beam current and scan speed
+G048,input_cat,"acoustic, photodiode or other signals",Verification: inputs are welding current and voltage signals
+G054,input_cat,"acoustic, photodiode or other signals",Verification: input is the fibre-optic reflection spectrum
+F040,compute_inference,False,"Verification: no inference time reported, only qualitative low computing cost (Abstract, Sec. 4)"
+F046,explanation_any,False,"Verification: crystal-plasticity law is the calibrated simulator, not an explanation of the surrogate"
+F046,explanation_validated,False,Follows from explanation recoding
+F046,compute_inference,True,Verification: surrogate calibration time about 0.02 s reported (Results)
+F051,robustness_perturbation,False,"Verification: noise added to the whole database before training, not a test-time perturbation (Sec. 4)"
+F010_rep61,uncertainty_any,False,Verification: min/max out-of-distribution flag and measurement SD are not predictive uncertainty (Sec. 2.11)
+F010_rep61,uncertainty_validated,False,Follows from uncertainty recoding
+G001,simulation_data_only,False,"Verification: models use 36 experimental tracks (Sec. 2.2, Table 6)"
+G003,explanation_any,False,Verification: PCA applied to inputs only (Sec. 4.1)
+G003,explanation_validated,False,Follows from explanation recoding
+G003,explanation_qualitative_only,False,Follows from explanation recoding
+G015,explanation_validated,False,"Verification: SHAP checked only qualitatively; simulation interprets the optimisation (Sec. 3.2, 4)"
+G015,explanation_qualitative_only,True,Follows from recoding
+G022,explanation_any,False,Verification: Pareto charts come from a separate response-surface model (Sec. 4.1)
+G022,explanation_validated,False,Follows from explanation recoding
+G022,explanation_qualitative_only,False,Follows from explanation recoding
+G023,repeats_reported,False,Verification: single fixed random_state (Sec. 4.1)
+F001,leakage_high,True,Verification: images augmented before the 40/40/20 split (Sec. 3.1)
+F001,leakage_unclear,False,Follows from leakage recoding
+F029,leakage_high,True,"Verification: 135 specimens from 12 walls divided 64/16/20 at specimen level with no grouping by wall, so specimens of one wall fall on both sides (Methods; Fig. 10)"
+F029,leakage_unclear,False,Follows from leakage recoding
+F006,code_public,True,Verification: GitHub repository with notebook named in the Data Availability Statement
+F006,split_random_only,False,Verification: split method not stated (Sec. 2.3)
+F006,split_not_reported,True,Verification: split method not stated (Sec. 2.3)
+F013,split_random_only,False,Verification: split method not stated (Sec. 4.5)
+F013,split_not_reported,True,Verification: split method not stated (Sec. 4.5)
+F015,split_heldout_condition,False,Verification: test simulations drawn from the training parameter ranges (Table 2)
+F015,split_random_only,True,"Rule: FFNN models trained on simulations randomly chosen from the dataset and tested on 150 further simulations (Sec. 5.1, p. 8)"
+F027,split_heldout_condition,False,Verification: benchmarks within the training range; experimental comparison uses calibration data (Sec. 3.3)
+F027,split_random_only,False,"Rule: no partition of labelled samples; the ten FE benchmarks are hypercube-sampled parameter sets used only for verification (Sec. 3.3, Table 1)"
+F027,realtime_claim,True,Verification: highlight claims real-time parametric solutions
+F027,explanation_validated,False,"Verification: measurements validate calibrated models, not the sensitivity analysis"
+F020,split_grouped,False,Verification: each sample is a whole part; 12 test parts selected for quality (Sec. 3.2.1)
+F020,split_random_only,True,Rule: repeated five-fold cross-validation that randomly changes the samples in each fold (Sec. 3.2.3)
+F023,split_heldout_condition,False,"Verification: unseen videos shown qualitatively only (Sec. 3.3, Fig. 12)"
+F023,split_not_reported,True,Verification: test split selection not described
+F030,split_grouped,False,Verification: training layers picked individually at random (Sec. III.D)
+F030,heldout_build_or_experiment,True,Verification: unseen high-speed staircase object (Sec. IV.B)
+F033,heldout_build_or_experiment,True,Verification: five unused trapezoid specimens (Table 1)
+F009,split_heldout_condition,True,"Verification: comparison with three external literature points (Sec. 3.3, Table 2)"
+F009,split_random_only,False,Follows from split recoding
+F009,robustness_any,True,Verification: external comparison under changed conditions (Sec. 3.3)
+F009,robustness_shift,True,Follows from robustness recoding
+F031,explanation_any,False,"Rule: a physics-informed loss is a modelling constraint, not an explanation method"
+F031,explanation_validated,False,Follows from explanation rule
+F031,explanation_qualitative_only,False,Follows from explanation rule
+F019,data_public,True,Verification: uses the public Marshall et al. data set (ref. 35)
+F033,model_cat,shallow neural network,Verification: checked value of the derived model category; an ANN is the final model
+F006,input_cat,process parameters or features,"Verification: checked value of the derived input category; inputs are post-processing condition, build orientation and stress intensity factor range"
+F022,input_cat,process parameters or features,Verification: checked value of the derived input category; inputs are geometric and placement descriptors of each facet
+F027,split_not_reported,True,"Rule: no partition of labelled samples reported; randomly sampled benchmark parameters are not an assignment to subsets (Sec. 3.3, Table 1)"
+F029,split_random_only,False,"Rule: models evaluated on one 64/16/20 split with 5-fold cross-validation, assignment not stated; the random 80/20 splits serve only the feature-importance analysis (Methods, p. 11; Fig. 10)"
+F029,split_not_reported,True,"Rule: evaluation split given by proportions only (64/16/20), assignment not stated (Methods, p. 11)"
+G018_rep61,split_not_reported,True,"Rule: splits given by counts or proportions only, selection not stated (Predictive modeling)"
+G030,split_random_only,False,"Rule: approximately 70/20/10 partition in Roboflow, assignment not stated (Sec. 2.2)"
+G030,split_not_reported,True,"Rule: approximately 70/20/10 partition in Roboflow, assignment not stated (Sec. 2.2)"
+G032,split_not_reported,True,"Rule: 15 of 18 walls for training and 3 for validation, selection not stated (Results and Discussion, ANN paragraph, p. 406)"
+G038,split_random_only,False,"Rule: 60/20/20 split of the samples, assignment not stated (Sec. 3.2)"
+G038,split_not_reported,True,"Rule: 60/20/20 split of the samples, assignment not stated (Sec. 3.2)"
+G048,split_random_only,False,"Rule: 5-fold cross-validation, fold assignment not stated (Sec. 3.1, Table 1)"
+G048,split_not_reported,True,"Rule: 5-fold cross-validation, fold assignment not stated (Sec. 3.1, Table 1)"
+G050,split_random_only,False,"Rule: 70/30 split of the 133 melt-pool points, assignment not stated; random refers only to generated parameter combinations (Sec. 2.2)"
+G050,split_not_reported,True,"Rule: 70/30 split of the 133 melt-pool points, assignment not stated (Sec. 2.2)"
+G051,split_random_only,False,"Rule: fivefold cross-validation, fold assignment not stated (Sec. 4.1)"
+G051,split_not_reported,True,"Rule: fivefold cross-validation, fold assignment not stated (Sec. 4.1)"
+G055,split_random_only,False,"Rule: 8:1:1 allocation of each dataset, assignment not stated (Sec. 2.2, Table 1)"
+G055,split_not_reported,True,"Rule: 8:1:1 allocation of each dataset, assignment not stated (Sec. 2.2, Table 1)"
+F051,split_grouped,False,"Verification: 80/20 split (Sec. 4); the 20 s and 50 s to 100 s test extends the prediction horizon and the NU build is a held-out geometry (Sec. 6, Sec. 7); no partition grouped by part, specimen or layer block"
+F042,variability_reported,False,"Rule: single stratified 70:15:15 split; the SDs are of prediction errors across samples (Table 3) and of importance scores (Tables 6-7); no repeated runs, seeds or folds"
+F046,variability_reported,False,"Rule: SD bars refer to experimental data only (Figs. 12-16); no repeated runs, seeds or folds"
+F058,variability_reported,False,"Rule: +/- values are SDs of measured bead width and height (Table A1); single error values per model (Fig. 10); no repeated runs, seeds or folds"
+G008,variability_reported,False,"Rule: Table 8 STDs are spreads of measured and predicted values and the t-tests compare means (Sec. 3.2.3); single 4:1 split; no repeated runs, seeds or folds"
+G047,variability_reported,False,"Rule: box plots show the spread across hyperparameter settings, each trained once per input set (Sec. 4.3; Sec. 5.1; Sec. 5.2); no repeated runs, seeds or folds"
+G031,variability_reported,True,"Rule: IoU and BF-score listed for each of the four cross-validation runs (Sec. 3.2, Tables 2-3)"
+F035,repeats_reported,True,"Rule: fourfold leave-one-alloy-out cross-validation (Sec. 3.6; Sec. 4.1, Fig. 8)"
+F009,leakage_unclear,False,"Rule: first reported test is the seven-fold cross-validation over 23 specimens, one per parameter set, a split at independent units (Sec. 2.1; Sec. 2.3; Sec. 3.1, Fig. 5b)"
+F009,leakage_low,True,Follows from leakage recoding
+F022,leakage_unclear,False,Rule: 1296 facet observations of 27 pyramid specimens (48 facets each) divided 70/15/15 with no grouping by specimen (Sec. 2.3; Sec. 2.8.2)
+F022,leakage_high,True,Follows from leakage recoding
+F023,leakage_unclear,False,"Rule: U-Net test set is 10% of a 30k-frame dataset curated from WAAM monitoring videos, with no grouping by video (Sec. 3.3, Fig. 11)"
+F023,leakage_high,True,Follows from leakage recoding
+F033,leakage_low,False,"Rule: first reported test is the straight-track test set (Fig. 6), 36 parameter combinations times 10 layers with previous-layer height as input, divided with no grouping (Experimental setup; Offline model selection)"
+F033,leakage_high,True,Follows from leakage recoding
+F035,leakage_low,False,"Rule: first reported test is the training-alloy test set, whose images come from the same tracks as the training images (Sec. 3.3; Sec. 3.6; Sec. 4.1, Fig. 8)"
+F035,leakage_high,True,Follows from leakage recoding
+F048,leakage_unclear,False,Rule: 3847 high-speed melt-pool frames of single tracks at four powers split 70/30 with no grouping by track (Sec. 2.1; Sec. 3.1)
+F048,leakage_high,True,Follows from leakage recoding
+F049_rep62,leakage_unclear,False,"Verification: 72 samples, each one condition with a unique laser power and scanning speed, randomly split 80/20, a split at independent units (Sec. 2.1 p. 4; Sec. 3.1 p. 8)"
+F049_rep62,leakage_low,True,Follows from leakage recoding
+F051,leakage_unclear,False,"Rule: over 250,000 material points from simulated builds split 80/20 with no grouping by build; only the later NU-shape test uses untrained builds (Sec. 4; Sec. 5.1, Fig. 2; Sec. 7)"
+F051,leakage_high,True,Follows from leakage recoding
+G001,leakage_unclear,False,"Rule: first reported test (DL-Exp) trains on 24 experimental tracks without augmentation and tests on 10 further single-track experiments, a split at independent units (Sec. 3; Sec. 3.1.1; Table 6)"
+G001,leakage_low,True,Follows from leakage recoding
+G007,leakage_unclear,False,"Rule: 15/5/5 split of the 25 L25 samples, each a distinct parameter and heat-treatment condition, a split at independent units (Sec. 1; Sec. 3.1, Fig. 2)"
+G007,leakage_low,True,Follows from leakage recoding
+G021,leakage_unclear,False,"Rule: model trained on two builds and first evaluated on the separately printed build exp.pred, an independent unit (Sec. II; Sec. III, Figs. 4-6)"
+G021,leakage_low,True,Follows from leakage recoding
+G048,leakage_unclear,False,"Rule: 5-fold cross-validation over 665 windows of current and voltage time series recorded along multiple layers, with no grouping by layer (Sec. 2.4; Sec. 3.1, Table 1)"
+G048,leakage_high,True,Follows from leakage recoding
+F009,repeats_reported,True,"Rule: seven-fold cross-validation over the 23 specimens with the cross-validated MSE 0.058 and R2 0.594 reported (Sec. 2.3; Sec. 3.1, Fig. 5b)"
+G032,leakage_low,False,"Rule: no prediction metric of the ANN is reported and the 3 walls per synergy are the early-stopping set, so no evaluation on withheld data is reported (Results and Discussion, ANN paragraph, p. 406)"
+G032,leakage_unclear,True,Follows from leakage recoding
+F058,leakage_unclear,False,"Rule: errors reported on 10 test parameter sets of single-track deposits, each the mean of three measured positions; repeated parameter combinations in Table A1 have separately measured responses, a split at independent units (Sec. 4.1, Tables 3-4; Table A1)"
+F058,leakage_low,True,Follows from leakage recoding

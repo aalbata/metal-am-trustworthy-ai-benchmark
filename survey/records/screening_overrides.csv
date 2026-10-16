@@ -1,0 +1,8 @@
+ID,reason_code,justification
+R1024,E8,theoretical/phase-field model; ML role unclear from abstract; full-text check
+R0048,E3,"perspective on multiscale models and surrogates for digital twins, not a primary ML study"
+R0258,E2,"image-processing algorithm (Sobel convolution), no simulation and no ML; exclusion stands, code differs"
+R0682,I1,"S2 review label only; title reports a comparison of supervised ML algorithms predicting SLM 316L density (primary study, title only)"
+R1085,I1,"S2 review label only; abstract describes a vision-language model for quality assessment in wire-feed laser AM (primary study)"
+R1285,I1,"S2 review label only; abstract describes unsupervised ML anomaly detection in gas metal arc AM (primary study)"
+R0017,I1,"S2 review label only; abstract benchmarks ML defect-prediction models on 312 inspected metal AM build cases (primary study)"

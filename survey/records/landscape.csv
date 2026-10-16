@@ -1,0 +1,23 @@
+dimension,category,count,n
+process_cat,LPBF,65,120
+process_cat,DED,27,120
+process_cat,WAAM,19,120
+process_cat,other,6,120
+process_cat,EB-PBF,3,120
+task_cat,property or microstructure prediction,34,120
+task_cat,defect or anomaly detection,26,120
+task_cat,melt-pool or thermal monitoring,21,120
+task_cat,geometry or surface prediction,18,120
+task_cat,parameter optimisation or control,18,120
+task_cat,other,3,120
+input_cat,process parameters or features,53,120
+input_cat,images or video,48,120
+input_cat,"acoustic, photodiode or other signals",9,120
+input_cat,other or not reported,5,120
+input_cat,simulation data,5,120
+model_cat,"deep neural network (CNN, transformer, recurrent)",53,120
+model_cat,shallow neural network,25,120
+model_cat,tree ensembles or kernel methods,18,120
+model_cat,other,13,120
+model_cat,physics-informed or hybrid,6,120
+model_cat,Gaussian process or Bayesian,5,120

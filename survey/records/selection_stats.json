@@ -1,0 +1,10 @@
+{
+ "eligible_I1": 1206,
+ "core_step1": 554,
+ "core_exceeds_110": true,
+ "fill_mode": "minimum 5 per family",
+ "after_step2": 554,
+ "added_step2": 0,
+ "added_step3": 127,
+ "final": 681
+}

@@ -1,0 +1,246 @@
+{
+  "dataset": {
+    "zenodo_doi": "10.5281/zenodo.14996806",
+    "zenodo_record": "https://zenodo.org/records/14996806",
+    "license": "CC BY 4.0",
+    "archives": {
+      "original": {
+        "filename": "Original Images and Manual Labels.zip",
+        "md5": "9d5ed884aecacb9ada5d0cca7c15d4b7"
+      },
+      "classification": {
+        "filename": "Croped Defects and Classification.zip",
+        "md5": "22a0bb286349584c61bab5ff47f3ea73"
+      }
+    },
+    "image_extensions": [".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"],
+    "modalities": ["OT", "PB"],
+    "expected_modes": {"OT": "RGB", "PB": "L"},
+    "defect_folder_name": "Defects",
+    "builds": {
+      "B1": "SI383820211201123521",
+      "B2": "SI383820240226095904",
+      "B3": "SI383820240318120348"
+    },
+    "expected_counts": {
+      "source_images": 5312,
+      "primary_binary": 5308,
+      "strict_sensitivity": 5305,
+      "localization_eligible": 2651,
+      "exact_duplicate_copies_excluded": 4
+    }
+  },
+  "splits": {
+    "seed": 20260916,
+    "protocol_R": {
+      "fold_id": "R_MAIN",
+      "temporary_fraction": 0.30,
+      "test_fraction_of_temporary": 0.50
+    },
+    "protocol_S": {
+      "validation_fraction": 0.15,
+      "fold_id_template": "S{fold}_HOLDOUT_{build}"
+    },
+    "stratum": "build_token x binary_label",
+    "expected_counts": {
+      "R_OT":    {"train": 1869, "val": 400, "test": 401,  "test_good": 233, "test_defect": 168},
+      "R_PB":    {"train": 1846, "val": 396, "test": 396,  "test_good": 166, "test_defect": 230},
+      "S_OT_S1": {"train": 1415, "val": 250, "test": 1005, "test_good": 975, "test_defect": 30},
+      "S_OT_S2": {"train": 2026, "val": 358, "test": 286,  "test_good": 158, "test_defect": 128},
+      "S_OT_S3": {"train": 1097, "val": 194, "test": 1379, "test_good": 413, "test_defect": 966},
+      "S_PB_S1": {"train": 1392, "val": 246, "test": 1000, "test_good": 593, "test_defect": 407},
+      "S_PB_S2": {"train": 2011, "val": 356, "test": 271,  "test_good": 144, "test_defect": 127},
+      "S_PB_S3": {"train": 1080, "val": 191, "test": 1367, "test_good": 371, "test_defect": 996}
+    }
+  },
+  "preprocessing": {
+    "target_size": 512,
+    "pb_pad_value": 128,
+    "interpolation": "bilinear",
+    "antialias": true,
+    "imagenet_mean": [0.485, 0.456, 0.406],
+    "imagenet_std": [0.229, 0.224, 0.225]
+  },
+  "training": {
+    "architectures": {
+      "resnet18": {
+        "weights_enum": "ResNet18_Weights.IMAGENET1K_V1",
+        "weights_filename": "resnet18-f37072fd.pth",
+        "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+        "head": "fc",
+        "head_in_features": 512
+      },
+      "resnet50": {
+        "weights_enum": "ResNet50_Weights.IMAGENET1K_V2",
+        "weights_filename": "resnet50-11ad3fa6.pth",
+        "weights_sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca",
+        "head": "fc",
+        "head_in_features": 2048
+      },
+      "efficientnet_b0": {
+        "weights_enum": "EfficientNet_B0_Weights.IMAGENET1K_V1",
+        "weights_filename": "efficientnet_b0_rwightman-7f5810bc.pth",
+        "weights_sha256": "7f5810bc96def8f7552d5b7e68d53c4786f81167d28291b21c0d90e1fca14934",
+        "head": "classifier.1",
+        "head_in_features": 1280
+      },
+      "mobilenet_v3_large": {
+        "weights_enum": "MobileNet_V3_Large_Weights.IMAGENET1K_V2",
+        "weights_filename": "mobilenet_v3_large-5c1a4163.pth",
+        "weights_sha256": "5c1a416349c4cf298f2a6a5e2600ed0ee55e604713578f5e74e6bc8bcaef7997",
+        "head": "classifier.3",
+        "head_in_features": 1280
+      }
+    },
+    "architecture_order": ["resnet18", "resnet50", "efficientnet_b0", "mobilenet_v3_large"],
+    "seeds": [20260916, 20260917, 20260918],
+    "num_classes": 2,
+    "batch_size": 8,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "scheduler": "none",
+    "loss": "unweighted_cross_entropy",
+    "augmentation": "none",
+    "amp_on_cuda": true,
+    "max_epochs": 30,
+    "early_stopping_monitor": "validation_nll",
+    "early_stopping_patience": 6,
+    "early_stopping_min_delta": 0.0001,
+    "restore_best_weights": true,
+    "decision_threshold": 0.5,
+    "num_workers": 0,
+    "cublas_workspace_config": ":4096:8",
+    "deterministic_algorithms": true,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "evaluation_batch_size": 8,
+    "run_count": 96
+  },
+  "metrics": {
+    "positive_class": "Defect",
+    "nll_probability_clip": [1e-12, 1.0],
+    "average_precision": "stable mergesort on -P(Defect), mean precision at positive ranks, no tie grouping",
+    "auroc": "average-rank Mann-Whitney statistic on P(Defect)",
+    "ece_bins": 10,
+    "group_sd_ddof": 1
+  },
+  "calibration": {
+    "parameterisation": "T = exp(eta)",
+    "temperature_lower": 0.01,
+    "temperature_upper": 100.0,
+    "xatol": 1e-8,
+    "maxiter": 500,
+    "boundary_eta_tolerance": 1e-7,
+    "fit_partition": "validation",
+    "nll": "log-sum-exp on logits, unclipped",
+    "ece_bins": 10,
+    "ece_target": "binary P(Defect) against Defect frequency",
+    "non_estimable_policy": "exclude run from calibrated summaries; no imputation; no bound expansion"
+  },
+  "uncertainty": {
+    "members": "three training seeds, equal weights, uncalibrated test probabilities",
+    "probability_sum_tolerance": 1e-6,
+    "entropy_bound_tolerance": 1e-12,
+    "entropy_gap_negative_tolerance": 1e-12,
+    "vote_threshold_rule": "P(Defect) > 0.5 is Defect; exact 0.5 is Good",
+    "ensemble_threshold_rule": "P(Defect) > 0.5 is Defect; exact 0.5 is Good",
+    "summary_quantile_method": "linear"
+  },
+  "robustness": {
+    "seed_material_template": "ROBUSTNESS_V1|{family}|{severity_label}|{sample_id}",
+    "seed_hex_digits": 8,
+    "rng": "numpy PCG64",
+    "families": [
+      {"family": "gaussian_intensity_noise", "parameter": "sigma", "values": [0.02, 0.05, 0.10]},
+      {"family": "gaussian_blur", "parameter": "sigma", "values": [0.5, 1.0, 2.0]},
+      {"family": "brightness_attenuation", "parameter": "factor", "values": [0.85, 0.70, 0.50]},
+      {"family": "contrast_reduction", "parameter": "factor", "values": [0.85, 0.65, 0.45]},
+      {"family": "jpeg_compression", "parameter": "quality", "values": [80, 50, 20]}
+    ],
+    "severity_labels": ["S1", "S2", "S3"],
+    "jpeg": {"subsampling": 0, "optimize": false, "progressive": false},
+    "blur_radius_rule": "ceil(3*sigma), reflect padding",
+    "applied_after": "resize and padding, on [0,1] before ImageNet normalisation",
+    "decision_threshold_rule": "P(Defect) >= 0.5 is Defect",
+    "inference_batch_size": 8,
+    "metrics": ["macro_f1", "balanced_accuracy", "roc_auc"],
+    "direction_rule": "sign of the three-seed mean of clean minus corrupted; exact zero is Same"
+  },
+  "statistics": {
+    "base_resampling_seed": 20260916,
+    "seed_material_template": "STATISTICAL_AMENDMENT_V1_1|BASE={base}|PHASE={phase}|TASK={task}|L={block_length}",
+    "bootstrap_replicates": 5000,
+    "randomization_iterations": 10000,
+    "primary_block_length": 16,
+    "sensitivity_block_lengths": [8, 32],
+    "block_length_eligibility": "every build series in the test set has n >= 2L",
+    "confidence_level": 0.95,
+    "p_value": "(E + 1) / (B + 1), two-sided absolute statistic",
+    "multiplicity": "Holm across the three contrasts within each task, metric and block length",
+    "metrics": ["macro_f1", "balanced_accuracy"],
+    "contrasts": [
+      {"name": "capacity_contrast", "model_a": "resnet50", "model_b": "resnet18"},
+      {"name": "efficient_vs_high_capacity", "model_a": "efficientnet_b0", "model_b": "resnet50"},
+      {"name": "deployment_vs_high_capacity", "model_a": "mobilenet_v3_large", "model_b": "resnet50"}
+    ]
+  },
+  "baselines": {
+    "embedding_backbone": "resnet18",
+    "embedding_dimension": 512,
+    "embedding_device": "cpu",
+    "linear_svc": {"C": 1.0, "penalty": "l2", "loss": "squared_hinge", "dual": false, "tol": 0.0001, "max_iter": 10000, "decision_threshold": 0.0},
+    "random_forest": {"n_estimators": 500, "criterion": "gini", "max_features": "sqrt", "bootstrap": true, "n_jobs": -1, "decision_threshold": 0.5},
+    "random_forest_seeds": [20260916, 20260917, 20260918],
+    "majority_rule": "predict Defect only when the training Defect prior exceeds 0.5",
+    "training_partition": "train",
+    "row_order": "OT before PB, then lower-case source filename"
+  },
+  "xai": {
+    "target_class_index": 1,
+    "layers": {
+      "resnet18": {"primary": "layer3", "complementary": "layer4"},
+      "resnet50": {"primary": "layer3", "complementary": "layer4"},
+      "efficientnet_b0": {"primary": "features.6", "complementary": "features.8"},
+      "mobilenet_v3_large": {"primary": "features.12", "complementary": "features.16"}
+    },
+    "normalise_maps": true,
+    "normalisation_epsilon": 1e-12,
+    "run_layer_overrides": {
+      "efficientnet_b0__R__OT__R_MAIN__seed_20260916": {"primary": "features.3", "complementary": "features.8", "normalise_maps": true},
+      "resnet18__R__OT__R_MAIN__seed_20260916": {"primary": "layer2.1", "complementary": "layer4.1", "normalise_maps": false}
+    },
+    "apply_run_layer_overrides": true,
+    "threshold_metric_excluded_runs": ["resnet18__R__OT__R_MAIN__seed_20260916"],
+    "apply_threshold_metric_exclusion": true,
+    "cohort_namespace": "METAL_AM_XAI_36A_CANDIDATE_V1",
+    "samples_per_task": 30,
+    "box_projection": "resized_extent",
+    "map_size": 512,
+    "top_fraction": 0.10,
+    "overlap_threshold": 0.50,
+    "sensitivity_thresholds": [0.25, 0.75],
+    "main_table_layer": "primary"
+  },
+  "efficiency": {
+    "batch_sizes": [1, 8],
+    "warmup_iterations": 30,
+    "timed_iterations": 100,
+    "precisions": ["FP32_STRICT", "AMP_FP16"],
+    "input": "zero-valued float32 tensor [B, 3, 512, 512] preallocated on the device",
+    "allow_tf32": false,
+    "cudnn_benchmark": true,
+    "cudnn_deterministic": false,
+    "weights_rule": "lowest training-manifest index within each architecture (Protocol R, OT, seed 20260916)",
+    "fresh_process_per_context": true
+  },
+  "figures": {
+    "font_family": ["Arial", "DejaVu Sans"],
+    "font_size_pt": 8,
+    "min_font_size_pt": 6.5,
+    "min_line_width_pt": 0.5,
+    "double_column_width_mm": 129,
+    "single_column_width_mm": 84,
+    "png_dpi": 600
+  }
+}

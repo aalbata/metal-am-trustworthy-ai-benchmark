@@ -1,0 +1,89 @@
+stream_id,kind,query,requested_utc,http_status,retrieved
+G01,general,"""metal additive manufacturing"" + ""machine learning""",2026-10-15T11:01:57Z,[200],236
+G02,general,"""metal additive manufacturing"" + ""deep learning""",2026-10-15T11:02:04Z,[200],80
+G03,general,"""metal additive manufacturing"" + ""neural network""",2026-10-15T11:02:10Z,[200],144
+G04,general,"""metal additive manufacturing"" + convolutional",2026-10-15T11:02:21Z,[200],78
+G05,general,"""metal additive manufacturing"" + ""transfer learning""",2026-10-15T11:02:27Z,[200],16
+G06,general,"""metal additive manufacturing"" + ""domain adaptation""",2026-10-15T11:02:37Z,[200],2
+G07,general,"""metal additive manufacturing"" + ""physics-informed""",2026-10-15T11:02:42Z,[200],41
+G08,general,"""metal additive manufacturing"" + ""Gaussian process""",2026-10-15T11:02:48Z,[200],21
+G09,general,"""metal additive manufacturing"" + ""random forest""",2026-10-15T11:02:54Z,[200],20
+G10,general,"""laser powder bed fusion"" + ""machine learning""",2026-10-15T11:03:01Z,[200],478
+G11,general,"""laser powder bed fusion"" + ""deep learning""",2026-10-15T11:03:09Z,[200],130
+G12,general,"""laser powder bed fusion"" + ""neural network""",2026-10-15T11:03:40Z,[200],257
+G13,general,"""laser powder bed fusion"" + convolutional",2026-10-15T11:03:47Z,[200],121
+G14,general,"""laser powder bed fusion"" + ""transfer learning""",2026-10-15T11:04:25Z,[200],35
+G15,general,"""laser powder bed fusion"" + ""domain adaptation""",2026-10-15T11:04:42Z,[200],1
+G16,general,"""laser powder bed fusion"" + ""physics-informed""",2026-10-15T11:04:46Z,[200],58
+G17,general,"""laser powder bed fusion"" + ""Gaussian process""",2026-10-15T11:04:53Z,[200],49
+G18,general,"""laser powder bed fusion"" + ""random forest""",2026-10-15T11:05:05Z,[200],49
+G19,general,"""selective laser melting"" + ""machine learning""",2026-10-15T11:05:11Z,[200],143
+G20,general,"""selective laser melting"" + ""deep learning""",2026-10-15T11:05:42Z,[200],35
+G21,general,"""selective laser melting"" + ""neural network""",2026-10-15T11:05:48Z,[200],123
+G22,general,"""selective laser melting"" + convolutional",2026-10-15T11:05:59Z,[200],48
+G23,general,"""selective laser melting"" + ""transfer learning""",2026-10-15T11:06:05Z,[200],5
+G24,general,"""selective laser melting"" + ""domain adaptation""",2026-10-15T11:06:15Z,[200],0
+G25,general,"""selective laser melting"" + ""physics-informed""",2026-10-15T11:06:20Z,[200],5
+G26,general,"""selective laser melting"" + ""Gaussian process""",2026-10-15T11:06:25Z,[200],18
+G27,general,"""selective laser melting"" + ""random forest""",2026-10-15T11:06:31Z,[200],23
+G28,general,"""electron beam melting"" + ""machine learning""",2026-10-15T11:06:41Z,[200],23
+G29,general,"""electron beam melting"" + ""deep learning""",2026-10-15T11:06:58Z,[200],3
+G30,general,"""electron beam melting"" + ""neural network""",2026-10-15T11:07:03Z,[200],11
+G31,general,"""electron beam melting"" + convolutional",2026-10-15T11:07:21Z,[200],8
+G32,general,"""electron beam melting"" + ""transfer learning""",2026-10-15T11:07:26Z,[200],0
+G33,general,"""electron beam melting"" + ""domain adaptation""",2026-10-15T11:07:32Z,[200],0
+G34,general,"""electron beam melting"" + ""physics-informed""",2026-10-15T11:07:37Z,[200],4
+G35,general,"""electron beam melting"" + ""Gaussian process""",2026-10-15T11:07:41Z,[200],1
+G36,general,"""electron beam melting"" + ""random forest""",2026-10-15T11:07:46Z,[200],4
+G37,general,"""powder bed fusion"" + ""machine learning""",2026-10-15T11:07:52Z,[200],605
+G38,general,"""powder bed fusion"" + ""deep learning""",2026-10-15T11:08:00Z,[200],152
+G39,general,"""powder bed fusion"" + ""neural network""",2026-10-15T11:08:06Z,[200],322
+G40,general,"""powder bed fusion"" + convolutional",2026-10-15T11:08:13Z,[200],146
+G41,general,"""powder bed fusion"" + ""transfer learning""",2026-10-15T11:08:31Z,[200],42
+G42,general,"""powder bed fusion"" + ""domain adaptation""",2026-10-15T11:08:37Z,[200],2
+G43,general,"""powder bed fusion"" + ""physics-informed""",2026-10-15T11:08:42Z,[200],69
+G44,general,"""powder bed fusion"" + ""Gaussian process""",2026-10-15T11:08:48Z,[200],57
+G45,general,"""powder bed fusion"" + ""random forest""",2026-10-15T11:08:55Z,[200],65
+G46,general,"""directed energy deposition"" + ""machine learning""",2026-10-15T11:09:01Z,[200],208
+G47,general,"""directed energy deposition"" + ""deep learning""",2026-10-15T11:09:09Z,[200],59
+G48,general,"""directed energy deposition"" + ""neural network""",2026-10-15T11:09:15Z,[200],134
+G49,general,"""directed energy deposition"" + convolutional",2026-10-15T11:09:48Z,[200],60
+G50,general,"""directed energy deposition"" + ""transfer learning""",2026-10-15T11:09:54Z,[200],17
+G51,general,"""directed energy deposition"" + ""domain adaptation""",2026-10-15T11:09:59Z,[200],0
+G52,general,"""directed energy deposition"" + ""physics-informed""",2026-10-15T11:10:04Z,[200],38
+G53,general,"""directed energy deposition"" + ""Gaussian process""",2026-10-15T11:10:10Z,[200],22
+G54,general,"""directed energy deposition"" + ""random forest""",2026-10-15T11:10:16Z,[200],21
+G55,general,"""laser metal deposition"" + ""machine learning""",2026-10-15T11:10:21Z,[200],27
+G56,general,"""laser metal deposition"" + ""deep learning""",2026-10-15T11:10:40Z,[200],9
+G57,general,"""laser metal deposition"" + ""neural network""",2026-10-15T11:10:46Z,[200],34
+G58,general,"""laser metal deposition"" + convolutional",2026-10-15T11:10:52Z,[200],8
+G59,general,"""laser metal deposition"" + ""transfer learning""",2026-10-15T11:10:57Z,[200],1
+G60,general,"""laser metal deposition"" + ""domain adaptation""",2026-10-15T11:11:02Z,[200],0
+G61,general,"""laser metal deposition"" + ""physics-informed""",2026-10-15T11:11:07Z,[200],9
+G62,general,"""laser metal deposition"" + ""Gaussian process""",2026-10-15T11:11:13Z,[200],0
+G63,general,"""laser metal deposition"" + ""random forest""",2026-10-15T11:11:33Z,[200],7
+G64,general,"""wire arc additive manufacturing"" + ""machine learning""",2026-10-15T11:11:39Z,[200],126
+G65,general,"""wire arc additive manufacturing"" + ""deep learning""",2026-10-15T11:11:46Z,[200],40
+G66,general,"""wire arc additive manufacturing"" + ""neural network""",2026-10-15T11:11:52Z,[200],100
+G67,general,"""wire arc additive manufacturing"" + convolutional",2026-10-15T11:12:02Z,[200],34
+G68,general,"""wire arc additive manufacturing"" + ""transfer learning""",2026-10-15T11:12:08Z,[200],8
+G69,general,"""wire arc additive manufacturing"" + ""domain adaptation""",2026-10-15T11:12:13Z,[200],1
+G70,general,"""wire arc additive manufacturing"" + ""physics-informed""",2026-10-15T11:12:18Z,[200],15
+G71,general,"""wire arc additive manufacturing"" + ""Gaussian process""",2026-10-15T11:12:23Z,[200],10
+G72,general,"""wire arc additive manufacturing"" + ""random forest""",2026-10-15T11:12:29Z,[200],26
+G73,general,"""binder jetting"" + ""machine learning""",2026-10-15T11:12:39Z,[200],28
+G74,general,"""binder jetting"" + ""deep learning""",2026-10-15T11:12:45Z,[200],7
+G75,general,"""binder jetting"" + ""neural network""",2026-10-15T11:12:51Z,[200],14
+G76,general,"""binder jetting"" + convolutional",2026-10-15T11:12:56Z,[200],2
+G77,general,"""binder jetting"" + ""transfer learning""",2026-10-15T11:13:01Z,[200],0
+G78,general,"""binder jetting"" + ""domain adaptation""",2026-10-15T11:13:06Z,[200],0
+G79,general,"""binder jetting"" + ""physics-informed""",2026-10-15T11:13:11Z,[200],5
+G80,general,"""binder jetting"" + ""Gaussian process""",2026-10-15T11:13:42Z,[200],4
+G81,general,"""binder jetting"" + ""random forest""",2026-10-15T11:13:47Z,[200],2
+F1,focused,"(""metal additive manufacturing"" | ""laser powder bed fusion"" | ""selective laser melting"" | ""electron beam melting"" | ""powder bed fusion"" | ""directed energy deposition"" | ""laser metal deposition"" | ""wire arc additive manufacturing"" | ""binder jetting"") + (""machine learning"" | ""deep learning"" | ""neural network"" | convolutional | ""transfer learning"" | ""domain adaptation"" | ""physics-informed"" | ""Gaussian process"" | ""random forest"") + (generalization | generalisation | transferability | ""cross-build"" | ""domain shift"" | ""out-of-distribution"" | unseen)",2026-10-15T11:13:53Z,[200],261
+F2,focused,"(""metal additive manufacturing"" | ""laser powder bed fusion"" | ""selective laser melting"" | ""electron beam melting"" | ""powder bed fusion"" | ""directed energy deposition"" | ""laser metal deposition"" | ""wire arc additive manufacturing"" | ""binder jetting"") + (""machine learning"" | ""deep learning"" | ""neural network"" | convolutional | ""transfer learning"" | ""domain adaptation"" | ""physics-informed"" | ""Gaussian process"" | ""random forest"") + (uncertainty | ""uncertainty quantification"" | Bayesian | calibration | conformal)",2026-10-15T11:13:59Z,[200],161
+F3,focused,"(""metal additive manufacturing"" | ""laser powder bed fusion"" | ""selective laser melting"" | ""electron beam melting"" | ""powder bed fusion"" | ""directed energy deposition"" | ""laser metal deposition"" | ""wire arc additive manufacturing"" | ""binder jetting"") + (""machine learning"" | ""deep learning"" | ""neural network"" | convolutional | ""transfer learning"" | ""domain adaptation"" | ""physics-informed"" | ""Gaussian process"" | ""random forest"") + (robustness | noise | perturbation | adversarial)",2026-10-15T11:14:06Z,[200],248
+F4,focused,"(""metal additive manufacturing"" | ""laser powder bed fusion"" | ""selective laser melting"" | ""electron beam melting"" | ""powder bed fusion"" | ""directed energy deposition"" | ""laser metal deposition"" | ""wire arc additive manufacturing"" | ""binder jetting"") + (""machine learning"" | ""deep learning"" | ""neural network"" | convolutional | ""transfer learning"" | ""domain adaptation"" | ""physics-informed"" | ""Gaussian process"" | ""random forest"") + (explainable | interpretable | SHAP | ""Grad-CAM"" | saliency | ""attention map"")",2026-10-15T11:14:14Z,[200],165
+F5,focused,"(""metal additive manufacturing"" | ""laser powder bed fusion"" | ""selective laser melting"" | ""electron beam melting"" | ""powder bed fusion"" | ""directed energy deposition"" | ""laser metal deposition"" | ""wire arc additive manufacturing"" | ""binder jetting"") + (""machine learning"" | ""deep learning"" | ""neural network"" | convolutional | ""transfer learning"" | ""domain adaptation"" | ""physics-informed"" | ""Gaussian process"" | ""random forest"") + (reproducibility | ""open dataset"" | ""benchmark dataset"")",2026-10-15T11:14:21Z,[200],45
+F6,focused,"(""metal additive manufacturing"" | ""laser powder bed fusion"" | ""selective laser melting"" | ""electron beam melting"" | ""powder bed fusion"" | ""directed energy deposition"" | ""laser metal deposition"" | ""wire arc additive manufacturing"" | ""binder jetting"") + (""machine learning"" | ""deep learning"" | ""neural network"" | convolutional | ""transfer learning"" | ""domain adaptation"" | ""physics-informed"" | ""Gaussian process"" | ""random forest"") + (""real-time"" | latency | edge | FPGA | ""inference time"" | ""closed-loop control"")",2026-10-15T11:14:27Z,[200],364
+RV,review,"(""metal additive manufacturing"" | ""laser powder bed fusion"" | ""selective laser melting"" | ""electron beam melting"" | ""powder bed fusion"" | ""directed energy deposition"" | ""laser metal deposition"" | ""wire arc additive manufacturing"" | ""binder jetting"") + (review | survey | ""state of the art"") + (""machine learning"" | ""deep learning"" | ""artificial intelligence"")",2026-10-15T11:14:35Z,[200],270

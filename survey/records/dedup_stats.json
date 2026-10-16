@@ -1,0 +1,9 @@
+{
+ "retained_raw_rows": 4152,
+ "unique_after_doi_or_paperid_key": 1654,
+ "unique_after_paperid_link": 1654,
+ "title_links": 3,
+ "relation_links": 1,
+ "unique_records": 1650,
+ "records_with_linked_versions": 35
+}

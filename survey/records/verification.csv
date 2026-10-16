@@ -1,0 +1,1322 @@
+study_id,field,original_value,checked_value,agree,locator,access
+G024_rep62,eligibility,eligible Y,"eligible (LPBF IN718, implemented scikit-learn tree models, peer-reviewed research article, not a review)",Y,"p.1-2, Sec. 2.1, Sec. 2.5",full text
+G024_rep62,process,LPBF,LPBF,Y,Sec. 2.1 p.2,full text
+G024_rep62,material,IN718,IN718,Y,Sec. 2.1 p.2,full text
+G024_rep62,task,porosity regression (average porosity at layer 0 of cuboid); processing window by probing,same,Y,"Sec. 2.4 p.8, Sec. 3.4 p.10-11, Fig. 16",full text
+G024_rep62,data_size,"1e5 to 1e6 cuboids; 240,540 for 1.125 x 1.125 x 0.56 mm",same,Y,Sec. 3.1 p.8,full text
+G024_rep62,independent_units,"5 specimens, one machine, one powder; builds not stated",same,Y,"Sec. 2.1, Table 1 p.3, Fig. 3 caption",full text
+G024_rep62,split category,random only,random only,Y,Sec. 2.5 p.8,full text
+G024_rep62,held-out machine,N,N,Y,Sec. 2.1,full text
+G024_rep62,held-out material,N,N,Y,Sec. 2.1,full text
+G024_rep62,leakage_risk,high,high,Y,"Sec. 2.4 p.8, Sec. 2.5, Sec. 3.1",full text
+G024_rep62,calibration,none,none,Y,"Sec. 2.5, Sec. 3.4",full text
+G024_rep62,uncertainty quantified,none,none,Y,Sec. 3.4,full text
+G024_rep62,uncertainty validated,NA,NA (not quantified),Y,,full text
+G024_rep62,robustness,none,none,Y,Fig. 14 p.10,full text
+G024_rep62,explanation used,Y (impurity feature importance Fig. 15; probing Fig. 16),Y,Y,"Sec. 3.4, Fig. 15 p.11, Fig. 16 p.12",full text
+G024_rep62,explanation checked,N (qualitative only),N,Y,"Sec. 3.2 p.9, Sec. 3.4 p.10-12",full text
+G024_rep62,data public,N (on request),N,Y,Data availability p.12,full text
+G024_rep62,code public,not stated,N,Y,whole text,full text
+G024_rep62,repeats,not reported,N,Y,"Sec. 2.5, Sec. 3.4",full text
+G024_rep62,variability,none,N,Y,"Fig. 14, Sec. 3.4",full text
+G024_rep62,hyperparameters,partial,partial,Y,Sec. 2.5 p.8,full text
+G024_rep62,inference timing,none (8 MB per layer only),N,Y,Sec. 2.2 p.4,full text
+G024_rep62,real-time claim,N,N,Y,"Abstract, Sec. 4 p.12",full text
+G024_rep62,timing in process,NA,N,Y,,full text
+G024_rep62,closed loop,N,N,Y,"Abstract, Sec. 4",full text
+G024_rep62,principal_finding,RF on multi-layer OT predicts ~1 mm x 1 mm porosity with Pearson R > 0.95; accuracy rises with cuboid height and area; window OT 70 to 105,same,Y,"Sec. 3.4 p.10-11, Fig. 14, Fig. 16(a)",full text
+G024_rep62,limitations / Table 1 VED,Disc-4 VED 108.7 inconsistent (recomputes 140.8),confirmed,Y,Table 1 p.3,full text
+G024_rep62,citation / authors,Feng 2022; Zhuoer Chen,"Feng, Chen (Zhuoer), Bircher, Ji, Nyborg, Bigot; Mater. Des. 222 (2022) 111115",Y,p.2,full text
+F008,split category,random only,random only,Y,Sec. 4.2 p.8,full text
+F008,held-out machine,N,N,Y,Sec. 4.1-4.2,full text
+F008,held-out material,N,N,Y,Sec. 4.1,full text
+F008,leakage_risk,high,high,Y,Sec. 4.2,full text
+F008,calibration,N,N,Y,whole text,full text
+F008,uncertainty quantified,N,N,Y,whole text,full text
+F008,uncertainty validated,N,N,Y,whole text,full text
+F008,robustness,N,N,Y,Sec. 4.2; Sec. 5,full text
+F008,explanation used,N,N,Y,whole text,full text
+F008,explanation checked,N,N,Y,whole text,full text
+F008,data public,Y,Y,Y,Sec. 4.1,full text
+F008,code public,N,N,Y,whole text,full text
+F008,repeats,N,N,Y,whole text,full text
+F008,variability,N,N,Y,Sec. 5; Fig. 5,full text
+F008,inference timing,Y,Y,Y,Sec. 5,full text
+F008,real-time claim,Y,Y,Y,Sec. 5,full text
+F008,timing in process,N,N,Y,Sec. 5,full text
+F008,closed loop,N,N,Y,whole text,full text
+F008,process,DED,DED,Y,Sec. 4.1,full text
+F008,task,defect detection,defect detection (cracks and keyhole pores),Y,Sec. 4.1-4.2,full text
+F008,principal_finding,"91% latency, 47% error rate, 99.4% storage reduction; CMKT 98.1% vs fusion 97.3% balanced accuracy",same,Y,Abstract; Sec. 4.2 Eq. 3; Sec. 5,full text
+F011,split category,not reported,not reported,Y,Sec. 5.3 (ELO layer defect analysis) pp.27-29,full text
+F011,held-out machine,N,N,Y,Sec. 5.3,full text
+F011,held-out material,N,N,Y,Sec. 5.3,full text
+F011,leakage_risk,unclear,unclear,Y,Sec. 5.3,full text
+F011,calibration,N,N,Y,whole text,full text
+F011,uncertainty quantified,N,N,Y,whole text,full text
+F011,uncertainty validated,N,N,Y,whole text,full text
+F011,robustness,N,N,Y,whole text,full text
+F011,explanation used,N,N,Y,whole text,full text
+F011,explanation checked,N,N,Y,whole text,full text
+F011,data public,N,N,Y,whole text,full text
+F011,code public,N,N,Y,whole text,full text
+F011,repeats,N,N,Y,Sec. 5.3,full text
+F011,variability,N,N,Y,Sec. 5.3,full text
+F011,inference timing,N,N,Y,Sec. 5.3,full text
+F011,real-time claim,Y,Y,Y,Sec. 5.3 p.29,full text
+F011,timing in process,N,N,Y,Sec. 5.3,full text
+F011,closed loop,N,N,Y,whole text,full text
+F011,process,EB-PBF,EB-PBF,Y,Sec. 5.1.2; 5.3,full text
+F011,task,defect detection (good/porous/bulging layers),same,Y,Sec. 5.3,full text
+F011,principal_finding,"cloud DT data management implemented; AlexNet 95.0% test accuracy on >16,000 ELO images",same,Y,Sec. 5.3 p.28,full text
+F018,split category,not reported (not applicable; RL in simulation),not reported (not applicable),Y,Case studies; Table 2,full text
+F018,held-out machine,N,N,Y,whole text,full text
+F018,held-out material,N,N,Y,whole text,full text
+F018,leakage_risk,unclear,unclear,Y,Case studies,full text
+F018,calibration,N,N,Y,whole text,full text
+F018,uncertainty quantified,N,N,Y,whole text,full text
+F018,uncertainty validated,N,N,Y,whole text,full text
+F018,robustness,N,N,Y,Conclusions p.17,full text
+F018,explanation used,N,N,Y,whole text,full text
+F018,explanation checked,N,N,Y,whole text,full text
+F018,data public,N,N,Y,whole text,full text
+F018,code public,N,N,Y,whole text,full text
+F018,repeats,Y (10 runs per agent),Y (10 runs per agent),Y,Tables 4-7 footnotes; p.15,full text
+F018,variability,Y,Y,Y,Tables 4 and 6; Fig. 17,full text
+F018,inference timing,N,N,Y,whole text,full text
+F018,real-time claim,N,N,Y,whole text,full text
+F018,timing in process,NA,NA,Y,whole text,full text
+F018,closed loop,Y,Y (simulated),Y,Case studies; Figs. 14-20,full text
+F018,process,LPBF,LPBF (simulated SLM),Y,Abstract; SLM model section,full text
+F018,task,process control,process control,Y,Abstract,full text
+F018,task_cat (derived),melt-pool or thermal monitoring,parameter optimisation or control,N,Abstract,full text
+F018,principal_finding,SAC and AWAC hold ~2308 K better than tuned PID; AWAC MAE 1.87 K vs SAC 2.57 K at 33.3% convergence,same,Y,"Sec. on fixed target p.13; Table 5 (SAC 2308.27, AWAC 2308.39, PID 2311.24 K)",full text
+F019,split category,random only,random only,Y,Sec. 4.1,full text
+F019,held-out machine,N,N,Y,Sec. 2.1,full text
+F019,held-out material,N,N,Y,Sec. 2.1,full text
+F019,leakage_risk,high,high,Y,Sec. 4.1-4.2,full text
+F019,calibration,N,N,Y,whole text,full text
+F019,uncertainty quantified,N,N,Y,whole text,full text
+F019,uncertainty validated,N,N,Y,whole text,full text
+F019,robustness,N,N,Y,whole text,full text
+F019,explanation used,N,N,Y,whole text,full text
+F019,explanation checked,N,N,Y,whole text,full text
+F019,data public,N,partial,N,Sec. 2.1; ref. [35],full text
+F019,code public,N,N,Y,Supplementary Materials,full text
+F019,repeats,N,N,Y,Sec. 4.3,full text
+F019,variability,N,N,Y,Tables 1-5,full text
+F019,inference timing,Y,Y,Y,Sec. 4.3,full text
+F019,real-time claim,N,N,Y,Abstract; Sec. 1,full text
+F019,timing in process,NA,NA,Y,whole text,full text
+F019,closed loop,N,N,Y,whole text,full text
+F019,process,DED (LMD),DED (LMD),Y,Sec. 2.1,full text
+F019,task,porosity prediction (good/bad melt-pool images),same,Y,Sec. 2.1; 4.1,full text
+F019,principal_finding,baseline 93.87%; some PI loss variants +1 pp weighted precision at accuracy cost; few TPs on 12 porous test images,same,Y,Tables 4-5; Sec. 4.3,full text
+F023,split category,held-out condition (split_heldout_condition=True; text: not reported; external unseen videos qualitative),not reported,N,Sec. 3.3; Fig. 11-12,full text
+F023,held-out machine,N,N,Y,Sec. 3,full text
+F023,held-out material,N,N,Y,Sec. 3.3,full text
+F023,leakage_risk,unclear,unclear,Y,Sec. 3.3,full text
+F023,calibration,N,N,Y,whole text,full text
+F023,uncertainty quantified,N,N,Y,whole text,full text
+F023,uncertainty validated,N,N,Y,whole text,full text
+F023,robustness,N,N,Y,Sec. 3.3 Fig. 12,full text
+F023,explanation used,N,N,Y,whole text,full text
+F023,explanation checked,N,N,Y,whole text,full text
+F023,data public,Y,partial,Y,Data Availability Statement; Supplementary zip (66.7 MB),full text
+F023,code public,N,N,Y,Data Availability Statement,full text
+F023,repeats,N,N,Y,Sec. 3.3,full text
+F023,variability,N,N,Y,Sec. 3.3; Fig. 11,full text
+F023,inference timing,Y,Y,Y,Sec. 3.2-3.3,full text
+F023,real-time claim,Y,Y,Y,Sec. 3.2,full text
+F023,timing in process,Y,Y,Y,Sec. 3.1; Figs. 6-8,full text
+F023,closed loop,Y,Y,Y,Sec. 3.1,full text
+F023,process,WAAM,WAAM,Y,Sec. 3,full text
+F023,task,video segmentation; wire tip position control,same,Y,Abstract; Sec. 3,full text
+F023,principal_finding,"toolkit enabled closed-loop wire control, droplet counting (155 at 8.7 Hz), 30k dataset; U-Net F1>0.95, mIoU>0.96",same,Y,Sec. 3.1-3.3,full text
+F029,split category,random only (k-fold random),random only,Y,Methods: CNN training; RF and feature importance,full text
+F029,held-out machine,N,N,Y,Methods: DED experiments,full text
+F029,held-out material,N,N,Y,Methods,full text
+F029,leakage_risk,unclear,high,N,Methods; Fig. 10,full text
+F029,calibration,N,N,Y,whole text,full text
+F029,uncertainty quantified,Y,Y,Y,Results Fig. 3; Supplementary Fig. 6,full text
+F029,uncertainty validated,N,N,Y,Fig. 3; Supp. Fig. 6,full text
+F029,robustness,N,N,Y,whole text,full text
+F029,explanation used,Y,Y,Y,Fig. 8,full text
+F029,explanation checked,Y,Y,Y,Fig. 9,full text
+F029,data public,Y,Y,Y,Data availability,full text
+F029,code public,Y,Y,Y,Code availability,full text
+F029,repeats,Y,Y,Y,Fig. 10; Fig. 8,full text
+F029,variability,Y,Y,Y,Fig. 10 error bars; Fig. 8 box statistics,full text
+F029,inference timing,N,N,Y,whole text,full text
+F029,real-time claim,N,N,Y,whole text,full text
+F029,timing in process,NA,NA,Y,whole text,full text
+F029,closed loop,N,N,Y,whole text,full text
+F029,process,DED,DED,Y,Methods,full text
+F029,task,property prediction (UTS maps),same,Y,Abstract,full text
+F029,task_cat (derived),melt-pool or thermal monitoring,property or microstructure prediction,N,Abstract,full text
+F029,principal_finding,WT-CNN highest test R2 (0.7) among ten models; dominant ranges 1212.99-1365.35 C and 654.32-857.47 C,same,Y,Fig. 10; Fig. 8 text,full text
+F030,split category,grouped + held-out condition,"held-out condition (within-object split is random individual layers, not grouped)",N,Sec. III.E-F; IV.B,full text
+F030,held-out build or experiment,N,Y,N,Sec. III.B; III.F; IV.B,full text
+F030,held-out machine,N,N,Y,Sec. III.A-B,full text
+F030,held-out material,N,N,Y,Sec. III,full text
+F030,leakage_risk,high (same-object layers),high,Y,Sec. III.E-F,full text
+F030,calibration,N,N,Y,whole text,full text
+F030,uncertainty quantified,N,N,Y,whole text,full text
+F030,uncertainty validated,N,N,Y,whole text,full text
+F030,robustness,Y (shift),Y (shift),Y,Sec. IV.A-B,full text
+F030,explanation used,N,N,Y,whole text,full text
+F030,explanation checked,N,N,Y,whole text,full text
+F030,data public,N,N,Y,whole text,full text
+F030,code public,N,N,Y,whole text,full text
+F030,repeats,N,N,Y,whole text,full text
+F030,variability,N,N,Y,Sec. IV,full text
+F030,inference timing,Y,Y,Y,Sec. IV.C,full text
+F030,real-time claim,Y,Y,Y,Abstract; Sec. V,full text
+F030,timing in process,N,N,Y,Sec. IV.C,full text
+F030,closed loop,N,N,Y,whole text,full text
+F030,process,LPBF,LPBF,Y,Sec. III,full text
+F030,task,part deformation prediction,same,Y,Abstract,full text
+F030,task_cat (derived),melt-pool or thermal monitoring,geometry or surface prediction,N,Abstract,full text
+F030,principal_finding,"RMSE 0.0257 mm (17%) asterisk; 0.0289 mm and 0.0500 mm (18%, 22%) low-speed test layers and unseen high-speed staircase",same,Y,Sec. IV.A-B,full text
+F033,split category,held-out condition,held-out condition,Y,Research Methodology; Results; Table 1,full text
+F033,held-out build or experiment,N,Y,N,Table 1; Results of real-time corner height estimation,full text
+F033,held-out machine,N,N,Y,Experimental setup,full text
+F033,held-out material,N,N,Y,Experimental setup; Conclusions,full text
+F033,leakage_risk,low,low,Y,Results,full text
+F033,calibration,N,N,Y,whole text,full text
+F033,uncertainty quantified,N,N,Y,whole text,full text
+F033,uncertainty validated,N,N,Y,whole text,full text
+F033,robustness,Y (shift),Y (shift),Y,Table 2,full text
+F033,explanation used,N,N,Y,whole text,full text
+F033,explanation checked,N,N,Y,whole text,full text
+F033,data public,N,N,Y,whole text,full text
+F033,code public,N,N,Y,whole text,full text
+F033,repeats,N,N,Y,whole text,full text
+F033,variability,N,N,Y,Table 2,full text
+F033,inference timing,N,N,Y,whole text,full text
+F033,real-time claim,Y,Y,Y,Title; Abstract; Results,full text
+F033,timing in process,N,N,Y,Results,full text
+F033,closed loop,N,N,Y,whole text,full text
+F033,process,DED,DED,Y,Experimental setup,full text
+F033,task,geometry (corner height) estimation,same,Y,Abstract,full text
+F033,model_cat (derived),Gaussian process or Bayesian,shallow neural network,N,Offline model selection; Results,full text
+F033,principal_finding,updated ANN with speed correction average RMSE 0.042 mm on five trapezoid specimens; lower than designed speed at every corner,same,Y,Table 2,full text
+F006,split category,random only,"not reported (sample-level 85/15 split, method unstated)",N,Sec. 2.3,full text
+F006,held-out machine,N,N,Y,Sec. 2,full text
+F006,held-out material,N,N,Y,Sec. 2,full text
+F006,leakage_risk,high,high,Y,Sec. 2.1; 2.3,full text
+F006,calibration,N,N,Y,whole text,full text
+F006,uncertainty quantified,N,N,Y,whole text,full text
+F006,uncertainty validated,N,N,Y,whole text,full text
+F006,robustness,N,N,Y,whole text,full text
+F006,explanation used,Y,Y,Y,Sec. 3.2; Fig. 7,full text
+F006,explanation checked,N,N,Y,Sec. 3.2,full text
+F006,data public,Y,Y,Y,Data Availability Statement,full text
+F006,code public,N,Y,N,Data Availability Statement; GitHub repository listing,full text
+F006,repeats,N,N,Y,whole text,full text
+F006,variability,N,N,Y,Fig. 6,full text
+F006,inference timing,N,N,Y,whole text,full text
+F006,real-time claim,N,N,Y,whole text,full text
+F006,timing in process,NA,NA,Y,whole text,full text
+F006,closed loop,N,N,Y,whole text,full text
+F006,process,LPBF,LPBF,Y,Abstract; Sec. 2,full text
+F006,task,property prediction (FCGR),same,Y,Abstract,full text
+F006,task_cat / model_cat / input_cat (derived),defect or anomaly detection / Gaussian process or Bayesian / other or not reported,property or microstructure prediction / tree ensembles or kernel methods / process parameters or features,N,Abstract; Sec. 2.2-2.4,full text
+F006,principal_finding,XGBoost lowest MSE and highest R2 of four models; importance dK > post-processing > build orientation,same,Y,Sec. 3.1-3.2; Figs. 6-7; Conclusions,full text
+F009,split category,random only (k-fold random; random 20% test),held-out condition (weak) plus random k-fold,N,Sec. 2.3; 3.2; 3.3 and Table 2,full text
+F009,held-out machine,N,N,Y,Table 2,full text
+F009,held-out material,N,N,Y,Sec. 2.1,full text
+F009,leakage_risk,unclear,unclear,Y,Sec. 3.2,full text
+F009,calibration,N,N,Y,whole text,full text
+F009,uncertainty quantified,N,N,Y,whole text,full text
+F009,uncertainty validated,N,N,Y,whole text,full text
+F009,robustness,N,Y (weak),N,Sec. 3.3; Table 2,full text
+F009,explanation used,N,N,Y,whole text,full text
+F009,explanation checked,N,N,Y,whole text,full text
+F009,data public,Y,Y,Y,Table 1,full text
+F009,code public,N,N,Y,whole text,full text
+F009,repeats,N,N,Y,whole text,full text
+F009,variability,N,N,Y,Sec. 3.1; Fig. 5,full text
+F009,inference timing,N,N,Y,whole text,full text
+F009,real-time claim,N,N,Y,whole text,full text
+F009,timing in process,NA,NA,Y,whole text,full text
+F009,closed loop,N,N,Y,whole text,full text
+F009,process,LPBF,LPBF,Y,Sec. 2.1,full text
+F009,task,parameter optimisation (multi-property prediction),same,Y,Abstract; Sec. 3.3,full text
+F009,task_cat (derived),geometry or surface prediction,parameter optimisation or control,N,Abstract,full text
+F009,principal_finding,"7-neuron ANN, CV MSE 0.058, R2 0.59; window density >99%, Ra <10.5 um, dim. error <20 um, HV >260",same,Y,Abstract; Sec. 3.1; Sec. 3.3 Fig. 8,full text
+F013,split category,random only,"not reported (70/15/15 split, method unstated)",N,Sec. 4.5,full text
+F013,held-out machine,N,N,Y,Sec. 4.1,full text
+F013,held-out material,N,N,Y,Sec. 4.2,full text
+F013,leakage_risk,low,low,Y,Sec. 4.5,full text
+F013,calibration,N,N,Y,whole text,full text
+F013,uncertainty quantified,Y,Y,Y,Sec. 4.7; Fig. 18,full text
+F013,uncertainty validated,Y,Y,Y,Sec. 4.7; Fig. 18; Table 4,full text
+F013,robustness,N,N,Y,whole text,full text
+F013,explanation used,Y,Y,Y,Sec. 4.8; Fig. 19,full text
+F013,explanation checked,N,N,Y,Sec. 4.8,full text
+F013,data public,Y,Y,Y,Data Availability Statement,full text
+F013,code public,N,N,Y,GitHub repository listing,full text
+F013,repeats,N,N,Y,whole text,full text
+F013,variability,N,N,Y,Tables 3-4,full text
+F013,inference timing,Y,Y,Y,Table 3,full text
+F013,real-time claim,N,N,Y,whole text,full text
+F013,timing in process,NA,NA,Y,whole text,full text
+F013,closed loop,N,N,Y,whole text,full text
+F013,process,LPBF,"LPBF (simulated, IN625 NIST bridge)",Y,Sec. 4.1,full text
+F013,task,"residual strain surrogate, UQ, SA, optimisation",same,Y,Abstract,full text
+F013,principal_finding,DNN and PCE agree (MSE 7.17e-11); Young modulus and Poisson ratio ranked above machine parameters; DNN+PSO most efficient,same,Y,Sec. 4.6; 4.8; Table 6,full text
+F020,split category,grouped (by part; 12 pre-selected parts held out),random only (sample = part; random repeated 5-fold CV plus a purposively selected 12-part hold-out),N,Sec. 3.2.1; 3.2.3,full text
+F020,held-out machine,N,N,Y,Sec. 2.1,full text
+F020,held-out material,N,N,Y,Sec. 2.1,full text
+F020,leakage_risk,high,high,Y,Sec. 2.1; 3.2.1,full text
+F020,calibration,N,N,Y,whole text,full text
+F020,uncertainty quantified,N,N,Y,Sec. 3.2.1,full text
+F020,uncertainty validated,N,N,Y,whole text,full text
+F020,robustness,N,N,Y,whole text,full text
+F020,explanation used,N,N,Y,whole text,full text
+F020,explanation checked,N,N,Y,whole text,full text
+F020,data public,N,N,Y,Data Availability Statement,full text
+F020,code public,N,N,Y,whole text,full text
+F020,repeats,Y,Y,Y,Sec. 3.2.3,full text
+F020,variability,Y,Y,Y,Sec. 3.2.3; Fig. 7,full text
+F020,inference timing,N,N,Y,whole text,full text
+F020,real-time claim,N,N,Y,whole text,full text
+F020,timing in process,NA,NA,Y,whole text,full text
+F020,closed loop,N,N,Y,whole text,full text
+F020,process,LPBF,LPBF,Y,Sec. 2.1,full text
+F020,task,"parameter optimisation (inverse prediction of power, velocity, hatch, energy density)",same,Y,Abstract,full text
+F020,task_cat (derived),property or microstructure prediction,parameter optimisation or control,N,Abstract,full text
+F020,principal_finding,"RF best on 12 unseen parts (MAPE 2.5%, R2 0.94); XGBoost MAPE 2%, R2 0.9; FFN MAPE 5%, R2 0.84; hatch distance hardest",same,Y,Sec. 3.2.4; Conclusions,full text
+F003,ELIGIBILITY,Y (flagged for consolidation),questionable: not metal AM,N,Experiment setup,full text
+F003,split category,held-out condition,held-out condition (partial),Y,Results Figs. 9-10,full text
+F003,held-out machine,N,N,Y,Experiment setup,full text
+F003,held-out material,N,N,Y,Table 1,full text
+F003,leakage_risk,low (extrapolation),low (extrapolation),Y,Figs. 9-10,full text
+F003,calibration,N,N,Y,whole text,full text
+F003,uncertainty quantified,N,N,Y,whole text,full text
+F003,uncertainty validated,N,N,Y,whole text,full text
+F003,robustness,Y (shift),Y (shift),Y,Fig. 10,full text
+F003,explanation used,Y (PDE-constrained network),N,N,whole text,full text
+F003,explanation checked,N,N,Y,whole text,full text
+F003,data public,N,N,Y,whole text,full text
+F003,code public,N,N,Y,whole text,full text
+F003,repeats,N,N,Y,Table 2; Fig. 5,full text
+F003,variability,N,N,Y,Table 2,full text
+F003,inference timing,Y,Y,Y,Methodology (developed PIML model),full text
+F003,real-time claim,N,N (borderline),Y,Abstract; Introduction,full text
+F003,timing in process,NA,NA,Y,whole text,full text
+F003,closed loop,N,N,Y,whole text,full text
+F003,process,other (laser single-track melting on solid substrate),other,Y,Experiment setup,full text
+F003,task,melt-pool/temperature surrogate,same,Y,Abstract,full text
+F003,principal_finding,"PIML with <1% labelled data matched simulation and experiment; lower MRE than DNN, XGBoost, RF incl. speeds outside labelled range",same,Y,"Figs. 5, 9, 10; Conclusion",full text
+F005,access_level,full text open access,preprint full text only (published version paywalled),N,Springer landing page; Research Square rs-9213876 v1,full text (preprint)
+F005,split category,random only,random only,Y,Data-Driven Insights section,full text (preprint)
+F005,held-out machine,N,N,Y,Results: Experimental Analysis,full text (preprint)
+F005,held-out material,N,N,Y,whole text,full text (preprint)
+F005,leakage_risk,unclear,unclear,Y,Results; Fig. 2,full text (preprint)
+F005,calibration,N,N,Y,whole text,full text (preprint)
+F005,uncertainty quantified,N,N,Y,whole text,full text (preprint)
+F005,uncertainty validated,N,N,Y,whole text,full text (preprint)
+F005,robustness,N,N,Y,whole text,full text (preprint)
+F005,explanation used,Y (PCA + k-means cluster decoding; error vs input),Y,Y,Fig. 5; Fig. 8,full text (preprint)
+F005,explanation checked,N (qualitative),N,Y,Fig. 5(f),full text (preprint)
+F005,data public,N,N,Y,Data availability (published version),full text (preprint)
+F005,code public,N,N,Y,Code availability (published version),full text (preprint)
+F005,repeats,N,N,Y,whole text,full text (preprint)
+F005,variability,N,N,Y,Fig. 6,full text (preprint)
+F005,inference timing,N,N,Y,whole text,full text (preprint)
+F005,real-time claim,N,N,Y,whole text,full text (preprint)
+F005,timing in process,NA,NA,Y,whole text,full text (preprint)
+F005,closed loop,N,N,Y,whole text,full text (preprint)
+F005,process,LPBF,LPBF,Y,Introduction; Experimental Analysis,full text (preprint)
+F005,task,property prediction (pitting breakdown potential),same,Y,Abstract,full text (preprint)
+F005,principal_finding,"GBRT on 10 PCs MAE 0.1336 V train, 0.1567 V test; Site 2 forms a distinct cluster",same,Y,Abstract (published and preprint); Fig. 5(f),full text (preprint)
+F015,split category,held-out condition (held-out process parameters),random only (independent simulations from the same uniform parameter ranges),N,Sec. 5.1; Table 2,full text
+F015,held-out machine,N,N,Y,whole text,full text
+F015,held-out material,N,N,Y,whole text,full text
+F015,leakage_risk,low,low,Y,Sec. 5.1,full text
+F015,calibration,N,N,Y,whole text,full text
+F015,uncertainty quantified,Y (MC propagation through surrogate),Y,Y,Sec. 3; 5.2,full text
+F015,uncertainty validated,N,N,Y,Sec. 5.2,full text
+F015,robustness,N,N,Y,whole text,full text
+F015,explanation used,Y (Sobol indices),Y,Y,Sec. 5.3,full text
+F015,explanation checked,N,N,Y,Sec. 5.3,full text
+F015,data public,N,N,Y,whole text,full text
+F015,code public,N,N,Y,whole text,full text
+F015,repeats,Y,Y,Y,Sec. 5.1,full text
+F015,variability,Y,Y,Y,Sec. 5.1; Fig. 5,full text
+F015,inference timing,Y,Y,Y,Sec. 5.2 computational cost,full text
+F015,real-time claim,N,N,Y,whole text,full text
+F015,timing in process,NA,NA,Y,whole text,full text
+F015,closed loop,N,N,Y,whole text,full text
+F015,process,DED,DED,Y,Sec. 2,full text
+F015,task,"UQ and SA of thermal field, cooling rate, melt-pool size via surrogate",same,Y,Abstract,full text
+F015,principal_finding,"FFNN on 21 FE sims, mean R2 0.9955-0.9997; MC UQ up to 12%, 20%, 100% variation; convection, power, speed, conductivity most influential",same,Y,Sec. 5.1; Conclusion; Abstract,full text
+F022,split category,not reported,not reported,Y,Sec. 2.8.2,full text
+F022,held-out machine,N,N,Y,Sec. 2.2,full text
+F022,held-out material,N,N,Y,Sec. 2.1,full text
+F022,leakage_risk,unclear,unclear,Y,Sec. 2.3; 2.8.2,full text
+F022,calibration,N,N,Y,whole text,full text
+F022,uncertainty quantified,N,N,Y,whole text,full text
+F022,uncertainty validated,N,N,Y,whole text,full text
+F022,robustness,N,N,Y,whole text,full text
+F022,explanation used,Y (one-factor virtual experiments),Y,Y,Sec. 2.8.3; Figs. 12-13,full text
+F022,explanation checked,N (qualitative),N,Y,Sec. 4,full text
+F022,data public,N,N,Y,whole text,full text
+F022,code public,N,N,Y,whole text,full text
+F022,repeats,N,N,Y,whole text,full text
+F022,variability,N,N,Y,Sec. 3.4,full text
+F022,inference timing,N,N,Y,whole text,full text
+F022,real-time claim,N,N,Y,whole text,full text
+F022,timing in process,NA,NA,Y,whole text,full text
+F022,closed loop,N,N,Y,whole text,full text
+F022,process,LPBF,LPBF,Y,Sec. 2.2,full text
+F022,task,property prediction (surface roughness Ra),same,Y,Abstract,full text
+F022,model_cat / input_cat (derived),Gaussian process or Bayesian / other or not reported,shallow neural network / process parameters or features,N,Sec. 2.8.1-2.8.2,full text
+F022,principal_finding,"roughness varies with orientation to laser origin; 12-neuron network R 94% train, 92% test",same,Y,Abstract; Sec. 3.4,full text
+F035,split category,held-out condition (held-out material),held-out condition (held-out material),Y,Sec. 3.6; Table 2,full text
+F035,held-out machine,N,N,Y,Sec. 2.1,full text
+F035,held-out material,Y,Y,Y,Table 2; Table 3,full text
+F035,held-out build or experiment,Y,Y,Y,Sec. 4.5; Table 4,full text
+F035,leakage_risk,low (held-out alloy); high (training-alloy test slices),same,Y,Sec. 3.3,full text
+F035,calibration,N,N,Y,whole text,full text
+F035,uncertainty quantified,N,N,Y,Sec. 3.4,full text
+F035,uncertainty validated,N,N,Y,whole text,full text
+F035,robustness,Y (shift),Y (shift),Y,Sec. 4.2,full text
+F035,explanation used,N,N,Y,whole text,full text
+F035,explanation checked,N,N,Y,whole text,full text
+F035,data public,N,N,Y,whole text,full text
+F035,code public,N,N,Y,whole text,full text
+F035,repeats,N,N,Y,Table 3,full text
+F035,variability,Y,Y,Y,Table 3; Conclusions,full text
+F035,inference timing,N,N,Y,Sec. 3.2,full text
+F035,real-time claim,N,N,Y,whole text,full text
+F035,timing in process,NA,NA,Y,whole text,full text
+F035,closed loop,N,N,Y,whole text,full text
+F035,process,LPBF,LPBF,Y,Sec. 2.1,full text
+F035,task,parameter optimisation (melting-mode classification for process maps),same,Y,Abstract,full text
+F035,model_cat (derived),physics-informed or hybrid,deep neural network (CNN),N,Sec. 3.1-3.4,full text
+F035,principal_finding,"training alloys >=90%; held-out alloy 92.0-96.0% beta-Ti, 72.5-77.5% AlSi10Mg, 62.5-75.0% Ti-6Al-4V",same (SS316L held out: 82.5%),Y,Table 3; Conclusions,full text
+F027,split category,held-out condition (held-out process parameters; simulation-to-experiment),not held-out: unsupervised PINN verified on independent FE benchmarks sampled within the training range,N,Sec. 3.3 (verification); Table 1; Sec. 4.1,full text
+F027,held-out machine,N,N,Y,Sec. 2,full text
+F027,held-out material,N,N,Y,Sec. 2,full text
+F027,leakage_risk,low,low,Y,Sec. 3.3,full text
+F027,calibration,N,N,Y,whole text,full text
+F027,uncertainty quantified,N,N,Y,whole text,full text
+F027,uncertainty validated,N,N,Y,whole text,full text
+F027,robustness,N,N,Y,whole text,full text
+F027,explanation used,Y (PDE-constrained network; Goldak sensitivity),Y (only via the Appendix C sensitivity analysis),Y,Appendix C; Fig. C.1,full text
+F027,explanation checked,Y (melt-pool dimensions and EBSD),N,N,Sec. 4.1-4.2; Fig. 6; Appendix C,full text
+F027,data public,Y,Y (partial),Y,Data availability; Table 2,full text
+F027,code public,Y,Y,Y,Data availability; Sec. 3.3,full text
+F027,repeats,Y,Y,Y,Sec. 3.3; Sec. 4.1,full text
+F027,variability,N,N,Y,whole text,full text
+F027,inference timing,Y,Y,Y,Sec. 3.3; Appendix B,full text
+F027,real-time claim,N,Y,N,Highlights; Sec. 5 (CA coupling),full text
+F027,timing in process,NA,N,Y,whole text,full text
+F027,closed loop,N,N,Y,whole text,full text
+F027,process,LPBF,LPBF,Y,Sec. 2,full text
+F027,task,thermal surrogate and inverse model calibration,same,Y,Abstract,full text
+F027,principal_finding,PINN vs FE average errors 4.2% (temperature) and 1.1% (MPD) on 10 benchmarks; calibrated Goldak parameters; 4.7% and 1.9% vs FE at optimised parameters,same,Y,Sec. 3.3; Sec. 4.1,full text
+F031,split category,not reported,not reported,Y,Sec. 3.1; Table 1,full text
+F031,held-out machine,N,N,Y,whole text,full text
+F031,held-out material,N,N,Y,Sec. 2,full text
+F031,leakage_risk,unclear,unclear,Y,Sec. 3.1,full text
+F031,calibration,N,N,Y,whole text,full text
+F031,uncertainty quantified,N,N,Y,Conclusion,full text
+F031,uncertainty validated,N,N,Y,whole text,full text
+F031,robustness,N,N,Y,whole text,full text
+F031,explanation used,Y (physics-informed residual loss),N,N,whole text,full text
+F031,explanation checked,N,N,Y,whole text,full text
+F031,data public,N,N,Y,whole text,full text
+F031,code public,N,N,Y,whole text,full text
+F031,repeats,N,N,Y,whole text,full text
+F031,variability,N,N,Y,whole text,full text
+F031,inference timing,Y,Y,Y,Sec. 3.3; Fig. 10,full text
+F031,real-time claim,N,N,Y,Introduction; Sec. 3.3,full text
+F031,timing in process,NA,NA,Y,whole text,full text
+F031,closed loop,N,N,Y,whole text,full text
+F031,process,LPBF,LPBF (simulated),Y,Abstract,full text
+F031,task,thermal field prediction (PINN surrogate),same,Y,Abstract,full text
+F031,principal_finding,"stable convergence; reproduces FEM probe histories and full fields across six cases; ms inference after 10,432 s training",same,Y,Sec. 3.1-3.3,full text
+F031,ELIGIBILITY,Y (simulation-only flagged),simulation-only; check against E7,NA,Abstract; Sec. 2,full text
+F001,split category,not reported,not reported,Y,Sec. 3.1,full text
+F001,held-out machine,N,N,Y,Sec. 2.1,full text
+F001,held-out material,N,N,Y,Sec. 2.2,full text
+F001,leakage_risk,unclear,high,N,Sec. 3.1,full text
+F001,calibration,N,N,Y,whole text,full text
+F001,uncertainty quantified,N,N,Y,whole text,full text
+F001,uncertainty validated,N,N,Y,whole text,full text
+F001,robustness,N,N,Y,Sec. 4.2; Fig. 8,full text
+F001,explanation used,N,N,Y,whole text,full text
+F001,explanation checked,N,N,Y,whole text,full text
+F001,data public,N,N,Y,Data availability,full text
+F001,code public,N,N,Y,whole text,full text
+F001,repeats,Y,Y,Y,Sec. 4.1; Table 2,full text
+F001,variability,Y,Y,Y,Table 2,full text
+F001,inference timing,Y,Y,Y,Sec. 4.2; Table 3,full text
+F001,real-time claim,Y,Y,Y,Abstract; Conclusions,full text
+F001,timing in process,N,N,Y,Sec. 4.2,full text
+F001,closed loop,N,N,Y,whole text,full text
+F001,process,DED,DED (L-DED),Y,Sec. 2,full text
+F001,task,melt-pool segmentation and width extraction,same,Y,Abstract,full text
+F001,principal_finding,"peak test MIoU 0.9798 (mean 0.9767 over three trials) at weighting factor 3, 17.9 ms/image, widths within 0.1 mm on four single tracks",same,Y,Table 2; Table 3; Sec. 4.3 Table 4,full text
+F040,eligibility,eligible Y,"eligible (LPBF H13, implemented CNN, peer-reviewed article)",Y,Sec. 3.1,full text
+F040,process,LPBF,LPBF,Y,Sec. 3.1,full text
+F040,task,"defect detection (delamination, splatter, OK)","defect detection (delamination, splatter, OK)",Y,Sec. 3.6,full text
+F040,split category,grouped (sequence-level split before frame extraction),grouped (split before frame extraction; k-fold within training),Y,Sec. 3.6,full text
+F040,held-out machine,N,N,Y,Sec. 3.1,full text
+F040,held-out material,N,N,Y,"Sec. 3.1, Sec. 6.1",full text
+F040,leakage_risk,unclear,unclear,Y,Sec. 3.6,full text
+F040,calibration,N,N,Y,Sec. 4,full text
+F040,uncertainty quantified,N,N,Y,Sec. 4,full text
+F040,uncertainty validated,N,N,Y,Sec. 4,full text
+F040,robustness,N (noise/blur only augmentation),N,Y,Sec. 3.6,full text
+F040,explanation used,Y (Grad-CAM),Y (Grad-CAM),Y,"Sec. 4.2, Fig. 4",full text
+F040,explanation checked,N (qualitative),N,Y,"Sec. 4.2, Sec. 5",full text
+F040,data public,N,N,Y,whole paper,full text
+F040,code public,N,N,Y,whole paper,full text
+F040,repeats,Y (10 folds),Y (10 folds),Y,"Sec. 4, Table 1",full text
+F040,variability,Y (SD),Y (SD over folds),Y,Table 1,full text
+F040,inference timing,Y (compute_inference True),N,N,"Abstract, Sec. 4, Sec. 5",full text
+F040,real-time claim,Y,Y,Y,Abstract,full text
+F040,timing in process,N,N,Y,whole paper,full text
+F040,closed loop,N,N,Y,whole paper,full text
+F040,principal_finding,bal. acc. 96.80% (SD 2.81%); all delaminations correctly identified,bal. acc. 96.80% (SD 2.81%); all delaminations correct in fold-4 confusion matrix,Y,"Table 1, Table 2, Sec. 5",full text
+F042,eligibility,eligible Y,"eligible (LPBF Ti-6Al-4V, implemented CGCNN+BNN, Sci Rep)",Y,Materials and methods,full text
+F042,process,LPBF,LPBF,Y,Materials and methods (EOS M290),full text
+F042,task,property prediction,"property prediction (UTS, YS, elongation, hardness, porosity, grain size)",Y,"Results, Table 2",full text
+F042,split category,random only (stratified 70:15:15),random only (stratified 70:15:15 sample-level),Y,Data preprocessing,full text
+F042,held-out machine,N,N,Y,Data preprocessing,full text
+F042,held-out material,N,N,Y,Methods Stage 2,full text
+F042,leakage_risk,unclear,unclear,Y,Data preprocessing; Data collection,full text
+F042,calibration,N,N,Y,Results (UQ),full text
+F042,uncertainty quantified,"Y (BNN, MC dropout, VI)",Y (BNN),Y,BNN section; Table 4,full text
+F042,uncertainty validated,N,N,Y,Table 4; Fig. 10,full text
+F042,robustness,N,N,Y,whole paper,full text
+F042,explanation used,Y (feature importance),Y (feature importance),Y,Fig. 11; Table 5,full text
+F042,explanation checked,N,N,Y,Table 5,full text
+F042,data public,N,N,Y,Data availability,full text
+F042,code public,N,N,Y,whole paper,full text
+F042,repeats,N,N,Y,whole paper,full text
+F042,variability,Y,Y (SD of errors within ranges),Y,Table 3,full text
+F042,inference timing,Y (<200 ms stated),"Y (stated <200 ms end-to-end, no measurement detail)",Y,Integration section,full text
+F042,real-time claim,Y,Y,Y,Abstract; Integration section,full text
+F042,timing in process,N,N,Y,Integration section,full text
+F042,closed loop,N,N,Y,Conclusions,full text
+F042,principal_finding,"R2 0.923 UTS, 0.914 YS (validation); range-wise acc. 92.1-94.7%; aleatoric dominated","R2 0.923/0.914 on validation set; range-wise acc. 92.1-94.7% (UTS 92.1-94.2, YS 92.8-94.6, porosity 92.3-94.7); aleatoric dominated",Y,Table 2; Table 3; Table 4,full text
+F046,eligibility,eligible Y,"eligible (LPBF IN625, implemented INN surrogate, IMMI journal)",Y,Benchmark Data; INN section,full text
+F046,process,LPBF,LPBF,Y,Benchmark Data (NIST AM Bench 2022),full text
+F046,task,property prediction (CP calibration via surrogate),"property prediction (CP parameter calibration, tensile response)",Y,Results,full text
+F046,split category,"held-out condition (orientations, scan strategy)",held-out condition (calibrated on XY 0 deg; predicted other orientations and X scan),Y,Material Law and Calibration; Figs. 12-16,full text
+F046,held-out machine,N,N,Y,Benchmark Data,full text
+F046,held-out material,N,N,Y,Benchmark Data,full text
+F046,leakage_risk,low,low,Y,Figs. 12-16,full text
+F046,calibration,N,N,Y,whole paper,full text
+F046,uncertainty quantified,N,N,Y,whole paper,full text
+F046,uncertainty validated,N,N,Y,whole paper,full text
+F046,robustness,Y (shift: unseen orientations and scan strategy),Y (shift),Y,Figs. 12-16,full text
+F046,explanation used,Y (physics-based interpretable model),N (no explanation method applied to the ML surrogate; CP law is the simulator being calibrated),N,INN section; Results,full text
+F046,explanation checked,Y (physical validation),N,N,Figs. 12-16,full text
+F046,data public,Y (NIST),Y (NIST AM Bench),Y,Data Availability,full text
+F046,code public,N,N,Y,Data Availability,full text
+F046,repeats,N,N,Y,Results,full text
+F046,variability,Y,Y (SD bars on experimental data),Y,Figs. 12-13 captions,full text
+F046,inference timing,N (compute_inference False),Y (surrogate calibration about 0.02 s with multiple forward passes; CP simulation 6.2-9.9 h),N,Results (after Fig. 11),full text
+F046,real-time claim,N,N,Y,whole paper,full text
+F046,timing in process,N,N,Y,whole paper,full text
+F046,closed loop,N,N,Y,whole paper,full text
+F046,principal_finding,INN 38 samples vs 68 HOPGD; predictions as good or better except 90 deg,INN 38 vs HOPGD 68 samples; INN predictions generally better except 90 deg loading,Y,Results; Figs. 14-16,full text
+F048,eligibility,eligible Y,"eligible (LPBF melt-pool imaging, implemented MPSR-Net, MSAM journal)",Y,Sec. 2.1,full text
+F048,process,LPBF,LPBF,Y,Sec. 2.1,full text
+F048,task,melt-pool monitoring (super-resolution),melt-pool monitoring (image super-resolution and feature extraction),Y,"Sec. 1, Sec. 3",full text
+F048,split category,not reported (70/30 only),"not reported (70% training, 30% validation and testing; unit not stated)",Y,Sec. 3.1,full text
+F048,held-out machine,N,N,Y,Sec. 2.1,full text
+F048,held-out material,N,N,Y,Sec. 2.1,full text
+F048,leakage_risk,unclear,unclear,Y,Sec. 3.1,full text
+F048,calibration,N,N,Y,whole paper,full text
+F048,uncertainty quantified,N,N,Y,whole paper,full text
+F048,uncertainty validated,N,N,Y,whole paper,full text
+F048,robustness,N (degradation for synthesis only),N,Y,Sec. 2.2,full text
+F048,explanation used,N,N,Y,whole paper,full text
+F048,explanation checked,N,N,Y,whole paper,full text
+F048,data public,N,N,Y,Availability of data,full text
+F048,code public,N,N,Y,whole paper,full text
+F048,repeats,N,N,Y,Table 1,full text
+F048,variability,N,N,Y,Tables 2-3,full text
+F048,inference timing,N,N,Y,Table 1,full text
+F048,real-time claim,N,N,Y,whole paper,full text
+F048,timing in process,N,N,Y,whole paper,full text
+F048,closed loop,N,N,Y,whole paper,full text
+F048,principal_finding,"best SR, PSNR 36.13; MAPE 4.52%; IoU 0.939",PSNR 36.13; feature MAPE 4.52%; contour IoU 0.939,Y,Table 2; Table 3; Sec. 4,full text
+F051,eligibility,eligible Y (simulation-only data),"eligible (DED, implemented GRU RNN, Manufacturing Letters; FEM data only)",Y,Sec. 4,full text (NSF PAR accepted manuscript)
+F051,process,DED,DED,Y,"Abstract, Sec. 4",full text (NSF PAR accepted manuscript)
+F051,task,thermal history prediction,thermal history prediction (FEM surrogate),Y,Sec. 5,full text (NSF PAR accepted manuscript)
+F051,split category,grouped + held-out condition (80/20 unit not reported; time extrapolation; NU geometry),held-out condition (dissimilar NU geometry; 20 s/50 s to 100 s extrapolation); 80/20 split unit not stated,Y,"Sec. 4, Sec. 6, Sec. 7",full text (NSF PAR accepted manuscript)
+F051,held-out machine,N,N,Y,Sec. 4,full text (NSF PAR accepted manuscript)
+F051,held-out material,N,N,Y,Sec. 4,full text (NSF PAR accepted manuscript)
+F051,leakage_risk,unclear,unclear,Y,Sec. 4,full text (NSF PAR accepted manuscript)
+F051,calibration,N,N,Y,whole paper,full text (NSF PAR accepted manuscript)
+F051,uncertainty quantified,N,N,Y,whole paper,full text (NSF PAR accepted manuscript)
+F051,uncertainty validated,N,N,Y,whole paper,full text (NSF PAR accepted manuscript)
+F051,robustness,Y (shift and perturbation),Y (shift: unseen geometry and longer span); perturbation N,N,"Sec. 4, Sec. 7",full text (NSF PAR accepted manuscript)
+F051,explanation used,N,N,Y,whole paper,full text (NSF PAR accepted manuscript)
+F051,explanation checked,N,N,Y,whole paper,full text (NSF PAR accepted manuscript)
+F051,data public,N,N,Y,whole paper,full text (NSF PAR accepted manuscript)
+F051,code public,N,N,Y,whole paper,full text (NSF PAR accepted manuscript)
+F051,repeats,N,N,Y,Sec. 5.1,full text (NSF PAR accepted manuscript)
+F051,variability,N,N,Y,Sec. 5.1,full text (NSF PAR accepted manuscript)
+F051,inference timing,N,N,Y,Sec. 5.1,full text (NSF PAR accepted manuscript)
+F051,real-time claim,N,N,Y,Abstract,full text (NSF PAR accepted manuscript)
+F051,timing in process,N,N,Y,whole paper,full text (NSF PAR accepted manuscript)
+F051,closed loop,N,N,Y,whole paper,full text (NSF PAR accepted manuscript)
+F051,principal_finding,test MSE of order 3e-5; extrapolates to 100 s and NU geometry except one point,test MSE 3.84e-5 (Sec. 5.1) / 2.97e-5 (Sec. 8); 100 s MSE 7.05e-5 and 3.17e-5; NU point 2 error,Y,"Sec. 5.1, Sec. 6, Sec. 7, Sec. 8",full text (NSF PAR accepted manuscript)
+F056,eligibility,eligible Y,"eligible (LPBF machine telemetry, implemented CNN-LSTM, Coatings)",Y,Sec. 3.2,full text (mdpi-res PDF)
+F056,process,LPBF,LPBF (SLM equipment),Y,Sec. 3.2,full text (mdpi-res PDF)
+F056,task,machine-condition monitoring (8-class subsystem fault),machine-condition monitoring (subsystem fault classification),Y,"Sec. 3.2, Table 5",full text (mdpi-res PDF)
+F056,split category,grouped (chronological block split),grouped (chronological 70:15:15 by layers; windows extracted after partition),Y,Sec. 4.2,full text (mdpi-res PDF)
+F056,held-out machine,N,N,Y,Sec. 5 limitations,full text (mdpi-res PDF)
+F056,held-out material,N,N,Y,Sec. 3.2,full text (mdpi-res PDF)
+F056,leakage_risk,low,low,Y,Sec. 4.2,full text (mdpi-res PDF)
+F056,calibration,N,N,Y,whole paper,full text (mdpi-res PDF)
+F056,uncertainty quantified,N,N,Y,whole paper,full text (mdpi-res PDF)
+F056,uncertainty validated,N,N,Y,whole paper,full text (mdpi-res PDF)
+F056,robustness,N,N,Y,whole paper,full text (mdpi-res PDF)
+F056,explanation used,Y (t-SNE),Y (t-SNE feature space),Y,"Sec. 4.6, Fig. 10",full text (mdpi-res PDF)
+F056,explanation checked,N (qualitative),N,Y,Sec. 4.6,full text (mdpi-res PDF)
+F056,data public,N,N,Y,Data Availability Statement,full text (mdpi-res PDF)
+F056,code public,N,N,Y,whole paper,full text (mdpi-res PDF)
+F056,repeats,N,N,Y,whole paper,full text (mdpi-res PDF)
+F056,variability,N,N,Y,whole paper,full text (mdpi-res PDF)
+F056,inference timing,Y (4.2 ms per window),Y (4.2 ms per 10-step window),Y,Sec. 4.5.4,full text (mdpi-res PDF)
+F056,real-time claim,Y,Y,Y,Sec. 4.5.4,full text (mdpi-res PDF)
+F056,timing in process,N,N,Y,Sec. 4.5.4,full text (mdpi-res PDF)
+F056,closed loop,N,N,Y,whole paper,full text (mdpi-res PDF)
+F056,principal_finding,"98.81% acc, 98.27% DR, 0.28% FAR; RF 91.2, 1D-CNN 94.5, GRU 95.1","98.81% acc, 98.27% DR, 0.28% FAR; RF 91.2%, 1D-CNN 94.5%, GRU 95.1%",Y,"Sec. 4.4, Table 5, Sec. 4.5.3",full text (mdpi-res PDF)
+F058,eligibility,eligible Y,"eligible (CMT-WAAM 316L, implemented BPNN variants, Micromachines)",Y,"Sec. 2, Sec. 3.1","full text (Europe PMC XML, PMC11123114)"
+F058,process,WAAM,WAAM,Y,Sec. 2,"full text (Europe PMC XML, PMC11123114)"
+F058,task,bead geometry prediction + FE simulation,"bead geometry prediction (BW, BH) with FE thermal/microstructure simulation",Y,"Sec. 4.1, Sec. 4.2","full text (Europe PMC XML, PMC11123114)"
+F058,split category,not reported,"not reported (only ""test set"" with n samples mentioned)",Y,"Sec. 4.1, Eq. 7-9","full text (Europe PMC XML, PMC11123114)"
+F058,held-out machine,N,N,Y,Sec. 2,"full text (Europe PMC XML, PMC11123114)"
+F058,held-out material,N,N,Y,Sec. 2,"full text (Europe PMC XML, PMC11123114)"
+F058,leakage_risk,unclear,unclear,Y,"Sec. 4.1, Table A1","full text (Europe PMC XML, PMC11123114)"
+F058,calibration,N,N,Y,whole paper,"full text (Europe PMC XML, PMC11123114)"
+F058,uncertainty quantified,N,N,Y,whole paper,"full text (Europe PMC XML, PMC11123114)"
+F058,uncertainty validated,N,N,Y,whole paper,"full text (Europe PMC XML, PMC11123114)"
+F058,robustness,N,N,Y,whole paper,"full text (Europe PMC XML, PMC11123114)"
+F058,explanation used,N,N,Y,whole paper,"full text (Europe PMC XML, PMC11123114)"
+F058,explanation checked,N,N,Y,whole paper,"full text (Europe PMC XML, PMC11123114)"
+F058,data public,Y,"Y (Table A1; ""Data are contained within the article"")",Y,"Data Availability Statement, Appendix Table A1","full text (Europe PMC XML, PMC11123114)"
+F058,code public,N,N,Y,whole paper,"full text (Europe PMC XML, PMC11123114)"
+F058,repeats,N,N,Y,whole paper,"full text (Europe PMC XML, PMC11123114)"
+F058,variability,Y,Y (± SD of measured BW/BH over three positions),Y,Table A1,"full text (Europe PMC XML, PMC11123114)"
+F058,inference timing,N,N,Y,whole paper,"full text (Europe PMC XML, PMC11123114)"
+F058,real-time claim,N,N,Y,whole paper,"full text (Europe PMC XML, PMC11123114)"
+F058,timing in process,N,N,Y,whole paper,"full text (Europe PMC XML, PMC11123114)"
+F058,closed loop,N,N,Y,whole paper,"full text (Europe PMC XML, PMC11123114)"
+F058,principal_finding,"BAS-BPNN best (BH MAE 0.0710 mm, MAPE 2.28%); optimised models <6%; FE melt pool within 3.6%","BAS-BPNN best (BH MAE 0.0710, MAPE 2.2808%, RMSE 0.0856); GA/PSO/BAS errors <6%; melt-pool width errors 1.36-3.58%",Y,"Sec. 4.1, Fig. 10, Sec. 4.2, Fig. 13, Sec. 5","full text (Europe PMC XML, PMC11123114)"
+F010_rep61,eligibility,eligible Y,"eligible (LPBF 316L, implemented DSCNN and VPPM, Materials)",Y,Sec. 2.1,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,process,LPBF,LPBF,Y,Sec. 2.1,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,task,property prediction (local tensile) with segmentation upstream,property prediction (local tensile properties),Y,"Abstract, Sec. 3.1","full text (Europe PMC XML, PMC10707661)"
+F010_rep61,split category,grouped (by specimen; 5-fold),"grouped (by specimen, 5-fold; specimens otherwise random)",Y,Sec. 2.11,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,held-out machine,N,N,Y,Sec. 2.1,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,held-out material,N,N,Y,Sec. 2.1,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,leakage_risk,high (assessor),high,Y,"Sec. 2.11, Sec. 2.6","full text (Europe PMC XML, PMC10707661)"
+F010_rep61,calibration,N,N,Y,whole paper,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,uncertainty quantified,Y (other: OOD range flag; measurement error),N,N,"Sec. 2.11, Sec. 3.1 Eq. 4","full text (Europe PMC XML, PMC10707661)"
+F010_rep61,uncertainty validated,N,N,Y,whole paper,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,robustness,N,N,Y,"Sec. 3.1, Table 8","full text (Europe PMC XML, PMC10707661)"
+F010_rep61,explanation used,Y (feature-group ablation),Y (feature-group ablation),Y,Table 8,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,explanation checked,N (qualitative),N,Y,"Sec. 3.1, Figs. 16-21","full text (Europe PMC XML, PMC10707661)"
+F010_rep61,data public,Y,"Y (ORNL DOI 452, 341, 417)",Y,Data Availability Statement,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,code public,N,N,Y,Data Availability Statement,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,repeats,Y (5 folds),Y (5 folds),Y,Table 7,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,variability,Y,Y (mean ± SD over folds),Y,Tables 7-8,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,inference timing,Y,Y (DSCNN 1.7 s/layer; prediction < 1 min per build),Y,"Sec. 2.4, Sec. 3.2","full text (Europe PMC XML, PMC10707661)"
+F010_rep61,real-time claim,Y,Y,Y,Sec. 3.2,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,timing in process,Y (segmentation stage only),"Y (segmentation ran during printing, several s per layer)",Y,Sec. 3.2,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,closed loop,N,N,Y,whole paper,"full text (Europe PMC XML, PMC10707661)"
+F010_rep61,principal_finding,"RMS 24.7/38.3 MPa, 9.0/11.9%; 30-48% below naive; image features most informative","RMS 24.7 MPa YS, 38.3 MPa UTS, 9.0% UE, 11.9% TE; 30-48% below naive",Y,"Table 7, Table 8","full text (Europe PMC XML, PMC10707661)"
+G001,eligibility,eligible Y,"eligible (laser DED 316L, implemented NN, IJAMD)",Y,"Sec. 2.2, Sec. 3",full text (publisher PDF)
+G001,process,DED,DED,Y,Sec. 2.2,full text (publisher PDF)
+G001,task,single-track geometry prediction,single-track geometry (deposition and dilution contours) prediction,Y,Sec. 3,full text (publisher PDF)
+G001,split category,held-out condition (simulation-to-experiment) + random,random (100 random states over experiments; 10 unseen experimental tracks) with simulation-trained variants tested on experiments,Y,"Sec. 3, Table 6",full text (publisher PDF)
+G001,held-out machine,N,N,Y,Sec. 2.2,full text (publisher PDF)
+G001,held-out material,N,N,Y,Sec. 2.2,full text (publisher PDF)
+G001,leakage_risk,unclear,unclear,Y,"Sec. 2.2, Fig. 6",full text (publisher PDF)
+G001,simulation-only data,Y (simulation_data_only True),N (36 experimental single tracks used for training and testing),N,"Sec. 2.2, Table 6",full text (publisher PDF)
+G001,calibration,N,N,Y,whole paper,full text (publisher PDF)
+G001,uncertainty quantified,N,N,Y,whole paper,full text (publisher PDF)
+G001,uncertainty validated,N,N,Y,whole paper,full text (publisher PDF)
+G001,robustness,N,N,Y,whole paper,full text (publisher PDF)
+G001,explanation used,N,N,Y,whole paper,full text (publisher PDF)
+G001,explanation checked,N,N,Y,whole paper,full text (publisher PDF)
+G001,data public,N,N,Y,Availability of data,full text (publisher PDF)
+G001,code public,N,N,Y,whole paper,full text (publisher PDF)
+G001,repeats,Y (100 random states),Y (100 runs),Y,Sec. 3,full text (publisher PDF)
+G001,variability,Y,Y (SD of R2),Y,Table 7,full text (publisher PDF)
+G001,inference timing,N,N,Y,whole paper,full text (publisher PDF)
+G001,real-time claim,N,N,Y,Sec. 1,full text (publisher PDF)
+G001,timing in process,N,N,Y,whole paper,full text (publisher PDF)
+G001,closed loop,N,N,Y,whole paper,full text (publisher PDF)
+G001,principal_finding,"DL-AugExp R2 0.9362; DL-AugExp-Sim-Exp R2 0.9086, SD 0.02818, RMSE 136.744",same,Y,Table 7,full text (publisher PDF)
+G003,eligibility,eligible Y,"eligible (LPBF 316L, implemented kNN/ensemble/SVM, IJAMT)",Y,"Sec. 2.1, Sec. 3",full text (Research Square preprint; publisher page abstract and declarations only)
+G003,process,LPBF,LPBF,Y,Sec. 2.1,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,task,property prediction + parameter optimisation,"property prediction (RD, hardness, YS, UTS)",Y,Sec. 4,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,split category,held-out condition (external in-house specimens) + random,random split of literature data plus external in-house validation build,Y,"Sec. 3.1 Step 3, Sec. 4, Table 14",full text (Research Square preprint; publisher page abstract and declarations only)
+G003,held-out machine,N,N,Y,Sec. 2.1,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,held-out material,N,N,Y,Sec. 2,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,leakage_risk,unclear,unclear,Y,Sec. 3.1,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,calibration,N,N,Y,whole paper,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,uncertainty quantified,N,N,Y,whole paper,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,uncertainty validated,N,N,Y,whole paper,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,robustness,N,N,Y,whole paper,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,explanation used,Y (other: PCA of predictors),N (PCA of input variables for feature selection before modelling; no model explanation),N,"Sec. 4.1, Fig. 4",full text (Research Square preprint; publisher page abstract and declarations only)
+G003,explanation checked,N,N,Y,Sec. 4.1,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,data public,N,N,Y,"Availability of data; Sec. 3.2 (Table 2 is ""a small sample"")",full text (Research Square preprint; publisher page abstract and declarations only)
+G003,code public,N,N,Y,Code availability,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,repeats,N,N,Y,whole paper,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,variability,N,N,Y,Tables 5-13,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,inference timing,N,N,Y,whole paper,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,real-time claim,N,N,Y,whole paper,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,timing in process,N,N,Y,whole paper,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,closed loop,N,N,Y,whole paper,full text (Research Square preprint; publisher page abstract and declarations only)
+G003,principal_finding,Model 6 accuracy >85%; SVM R2 about 0.95-0.99; RD 98.98 measured vs 98.98 predicted,Model 6 accuracy about 86-89%; SVM R2 about 0.92-0.99 by target; RD 98.98% measured and predicted,Y,"Tables 5-7, Table 13, Table 14",full text (Research Square preprint; publisher page abstract and declarations only)
+G007,eligibility,eligible Y,"eligible (LPBF Ti-6Al-4V, implemented ANN, Virtual Phys Prototyp)",Y,"Sec. 2, Sec. 3.1",full text (University of Twente repository copy)
+G007,process,LPBF,LPBF,Y,Sec. 2,full text (University of Twente repository copy)
+G007,task,property prediction (density) and parameter-effect analysis,relative density modelling and parameter significance,Y,Sec. 3.1,full text (University of Twente repository copy)
+G007,split category,not reported,not reported (15/5/5 train/test/recall; selection not stated),Y,"Sec. 3.1, Fig. 2",full text (University of Twente repository copy)
+G007,held-out machine,N,N,Y,Sec. 2,full text (University of Twente repository copy)
+G007,held-out material,N,N,Y,Sec. 2,full text (University of Twente repository copy)
+G007,leakage_risk,unclear,unclear,Y,Sec. 3.1,full text (University of Twente repository copy)
+G007,calibration,N,N,Y,whole paper,full text (University of Twente repository copy)
+G007,uncertainty quantified,N,N,Y,whole paper,full text (University of Twente repository copy)
+G007,uncertainty validated,N,N,Y,whole paper,full text (University of Twente repository copy)
+G007,robustness,N,N,Y,whole paper,full text (University of Twente repository copy)
+G007,explanation used,Y (interrogator sensitivity),Y (ANN interrogator analysis),Y,"Sec. 3.1, Fig. 3A",full text (University of Twente repository copy)
+G007,explanation checked,Y (agreement with MANOVA F-test),Y (compared with F-test and MANOVA analytical graphs),Y,"Sec. 3.1-3.2, Figs. 3-5",full text (University of Twente repository copy)
+G007,data public,N,N,Y,whole paper,full text (University of Twente repository copy)
+G007,code public,N,N,Y,whole paper,full text (University of Twente repository copy)
+G007,repeats,N,N,Y,whole paper,full text (University of Twente repository copy)
+G007,variability,N,N,Y,whole paper,full text (University of Twente repository copy)
+G007,inference timing,N,N,Y,whole paper,full text (University of Twente repository copy)
+G007,real-time claim,N,N,Y,whole paper,full text (University of Twente repository copy)
+G007,timing in process,N,N,Y,whole paper,full text (University of Twente repository copy)
+G007,closed loop,N,N,Y,whole paper,full text (University of Twente repository copy)
+G007,principal_finding,heat treatment most influential; then scan speed and hatch spacing; power and pattern angle least,heat treatment most influential; hatch spacing and scan speed secondary,Y,"Sec. 3.1, Fig. 3",full text (University of Twente repository copy)
+G008,eligibility,eligible Y,"eligible (LPBF Fe-50Ni, implemented 3D-CvT, IJAMT)",Y,Sec. 2.1,full text (Research Square preprint; publisher version paywalled)
+G008,process,LPBF,LPBF,Y,Sec. 2.1,full text (Research Square preprint; publisher version paywalled)
+G008,task,property prediction (magnetic),"property prediction (Bm, Hc, permeability, Br, iron loss)",Y,Tables 6-7,full text (Research Square preprint; publisher version paywalled)
+G008,split category,grouped (by specimen),grouped (160 training / 40 test specimens),Y,Table 5,full text (Research Square preprint; publisher version paywalled)
+G008,held-out machine,N,N,Y,Sec. 2.1,full text (Research Square preprint; publisher version paywalled)
+G008,held-out material,N,N,Y,Sec. 2.1,full text (Research Square preprint; publisher version paywalled)
+G008,leakage_risk,low,low,Y,Table 5,full text (Research Square preprint; publisher version paywalled)
+G008,calibration,N,N,Y,whole paper,full text (Research Square preprint; publisher version paywalled)
+G008,uncertainty quantified,N,N,Y,whole paper,full text (Research Square preprint; publisher version paywalled)
+G008,uncertainty validated,N,N,Y,whole paper,full text (Research Square preprint; publisher version paywalled)
+G008,robustness,N,N,Y,whole paper,full text (Research Square preprint; publisher version paywalled)
+G008,explanation used,Y (Grad-CAM),Y (Grad-CAM),Y,Sec. 3.2.4,full text (Research Square preprint; publisher version paywalled)
+G008,explanation checked,N (qualitative),N,Y,Sec. 3.2.4,full text (Research Square preprint; publisher version paywalled)
+G008,data public,N,N,Y,whole preprint,full text (Research Square preprint; publisher version paywalled)
+G008,code public,N,N,Y,whole preprint,full text (Research Square preprint; publisher version paywalled)
+G008,repeats,N,N,Y,whole preprint,full text (Research Square preprint; publisher version paywalled)
+G008,variability,Y,"Y (t-test, Cohen's d, predicted and measured SD)",Y,"Sec. 3.2.3, Table 8",full text (Research Square preprint; publisher version paywalled)
+G008,inference timing,N,N,Y,whole preprint,full text (Research Square preprint; publisher version paywalled)
+G008,real-time claim,N,N,Y,whole preprint,full text (Research Square preprint; publisher version paywalled)
+G008,timing in process,N,N,Y,whole preprint,full text (Research Square preprint; publisher version paywalled)
+G008,closed loop,N,N,Y,whole preprint,full text (Research Square preprint; publisher version paywalled)
+G008,principal_finding,3D-CvT best; R2 mostly >0.96 (Bm 50 Hz 0.987 vs LightGBM 0.932); t-tests n.s.,3D-CvT best on all properties (Bm 50 Hz 0.987 vs LightGBM 0.932; range 0.909-0.989); 3D-CvT t-test p > 0.05,Y,Tables 6-8,full text (Research Square preprint; publisher version paywalled)
+G012,eligibility,eligible Y,"eligible (LPBF 316L, implemented 1D CNN, Sci Rep)",Y,Methods,full text
+G012,process,LPBF,LPBF,Y,Methods,full text
+G012,task,defect detection (keyhole pore vs non-pore),defect detection (pore/non-pore from acoustic windows),Y,Results,full text
+G012,split category,random only (stratified),random only (stratified sample-level within each experiment),Y,Methods (data split),full text
+G012,held-out machine,N,N,Y,Methods,full text
+G012,held-out material,N,N,Y,Methods,full text
+G012,leakage_risk,high (assessor),high,Y,Methods,full text
+G012,calibration,N,N,Y,whole paper,full text
+G012,uncertainty quantified,N,N,Y,whole paper,full text
+G012,uncertainty validated,N,N,Y,whole paper,full text
+G012,robustness,N,N,Y,whole paper,full text
+G012,explanation used,N,N,Y,whole paper,full text
+G012,explanation checked,N,N,Y,whole paper,full text
+G012,data public,N,N,Y,Data and code availability,full text
+G012,code public,N,N,Y,Data and code availability,full text
+G012,repeats,N,N,Y,whole paper,full text
+G012,variability,N,N,Y,whole paper,full text
+G012,inference timing,Y (stated order of ms),"Y (stated ""inferred in milliseconds"", not measured)",Y,Conclusions,full text
+G012,real-time claim,Y,Y,Y,Conclusions,full text
+G012,timing in process,N,N,Y,whole paper,full text
+G012,closed loop,N,N,Y,whole paper,full text
+G012,principal_finding,"combined set acc/F1 0.95 original, 0.99 single-lambda Mixup; multi-lambda worse",same,Y,"Results, Table 3, Conclusions",full text
+G015,eligibility,eligible Y,"eligible (laser DED IN718, implemented LSBoost etc., Virtual Phys Prototyp)",Y,Sec. 2,full text (publisher HTML via browser; supplement via figshare)
+G015,process,DED,DED,Y,Sec. 2,full text (publisher HTML via browser; supplement via figshare)
+G015,task,porosity and bead geometry prediction + optimisation,"porosity, aspect ratio, dilution prediction and multi-objective optimisation",Y,Sec. 3,full text (publisher HTML via browser; supplement via figshare)
+G015,split category,random only (8:1:1; 5-fold on training),random only (8:1:1; 5-fold CV on training set),Y,"Sec. 3.1.1, Sec. 3.1.2",full text (publisher HTML via browser; supplement via figshare)
+G015,held-out machine,N,N,Y,Sec. 2,full text (publisher HTML via browser; supplement via figshare)
+G015,held-out material,N,N,Y,Sec. 2,full text (publisher HTML via browser; supplement via figshare)
+G015,leakage_risk,low,low,Y,Sec. 3.1.1,full text (publisher HTML via browser; supplement via figshare)
+G015,calibration,N,N,Y,whole paper,full text (publisher HTML via browser; supplement via figshare)
+G015,uncertainty quantified,N,N,Y,Sec. 3.1.3,full text (publisher HTML via browser; supplement via figshare)
+G015,uncertainty validated,N,N,Y,whole paper,full text (publisher HTML via browser; supplement via figshare)
+G015,robustness,N,N,Y,whole paper,full text (publisher HTML via browser; supplement via figshare)
+G015,explanation used,Y (SHAP),Y (SHAP),Y,"Sec. 3.2, Fig. 12",full text (publisher HTML via browser; supplement via figshare)
+G015,explanation checked,Y (physical validation vs physics and CFD),"N (SHAP discussed qualitatively against melt-pool physics; Fluent single-track simulation interprets optimisation results, not SHAP)",N,"Sec. 3.2, Sec. 4 (Fluent simulation)",full text (publisher HTML via browser; supplement via figshare)
+G015,data public,Y,Y (Zenodo 10.5281/zenodo.20137962; supplementary Table A.1),Y,Data availability statement; Supplement,full text (publisher HTML via browser; supplement via figshare)
+G015,code public,N,N,Y,Data availability statement,full text (publisher HTML via browser; supplement via figshare)
+G015,repeats,Y (5 folds),Y (5 folds),Y,Table 4,full text (publisher HTML via browser; supplement via figshare)
+G015,variability,Y,Y (mean ± SD over folds),Y,Table 4,full text (publisher HTML via browser; supplement via figshare)
+G015,inference timing,N,N,Y,Table 5,full text (publisher HTML via browser; supplement via figshare)
+G015,real-time claim,N,N,Y,Sec. 5,full text (publisher HTML via browser; supplement via figshare)
+G015,timing in process,N,N,Y,whole paper,full text (publisher HTML via browser; supplement via figshare)
+G015,closed loop,N,N,Y,whole paper,full text (publisher HTML via browser; supplement via figshare)
+G015,principal_finding,"HOA-LSBoost test R2 0.97/0.95/0.95 (porosity, AR, DR); porosity 0.28% to 0.16%",test R2 0.97/0.95/0.95 (Sec. 5); porosity 0.28% to 0.16%,Y,Sec. 5 Conclusions; Sec. 4,full text (publisher HTML via browser; supplement via figshare)
+G021,eligibility,eligible Y,"eligible (laser DED IN718, implemented FCNN, J Laser Appl)",Y,Sec. II,full text (publisher HTML via browser)
+G021,process,DED,DED (LMD),Y,Sec. II,full text (publisher HTML via browser)
+G021,task,parameter optimisation (spatially resolved laser power),parameter prediction (point-wise laser power for constant melt-pool area),Y,Sec. II,full text (publisher HTML via browser)
+G021,split category,held-out condition (held-out build),held-out build (new flange printed with predicted power); no test-set split,Y,"Sec. II, Sec. III",full text (publisher HTML via browser)
+G021,held-out machine,N,N,Y,Sec. II,full text (publisher HTML via browser)
+G021,held-out material,N,N,Y,Sec. II,full text (publisher HTML via browser)
+G021,leakage_risk,unclear,unclear,Y,Sec. II-III,full text (publisher HTML via browser)
+G021,calibration,N,N,Y,whole paper,full text (publisher HTML via browser)
+G021,uncertainty quantified,N,N,Y,whole paper,full text (publisher HTML via browser)
+G021,uncertainty validated,N,N,Y,whole paper,full text (publisher HTML via browser)
+G021,robustness,N,N,Y,whole paper,full text (publisher HTML via browser)
+G021,explanation used,N,N,Y,whole paper,full text (publisher HTML via browser)
+G021,explanation checked,N,N,Y,whole paper,full text (publisher HTML via browser)
+G021,data public,N,N,Y,whole paper,full text (publisher HTML via browser)
+G021,code public,N,N,Y,whole paper,full text (publisher HTML via browser)
+G021,repeats,N,N,Y,whole paper,full text (publisher HTML via browser)
+G021,variability,N,N,Y,Sec. III,full text (publisher HTML via browser)
+G021,inference timing,N,N,Y,Sec. III,full text (publisher HTML via browser)
+G021,real-time claim,N,N,Y,whole paper,full text (publisher HTML via browser)
+G021,timing in process,N,N,Y,whole paper,full text (publisher HTML via browser)
+G021,closed loop,N,N,Y,whole paper,full text (publisher HTML via browser)
+G021,principal_finding,max height deviation 1.89 to 1.55 mm; median emission area 0.75 vs 0.86 mm2; ribs not eliminated,same,Y,"Sec. III, Figs. 5-6",full text (publisher HTML via browser)
+G022,eligibility,eligible Y,"eligible (laser-wire DED IN625, implemented ANN, IOP Conf Ser MSE)",Y,Sec. 2-4,full text
+G022,process,DED,DED (wire-laser AM),Y,Sec. 2,full text
+G022,task,single-bead geometry prediction,"single-bead height, width, area prediction",Y,Sec. 4.2,full text
+G022,split category,held-out condition (20 random parameter combinations),held-out condition (20 separately printed beads at parameter combinations not in the DoE),Y,Sec. 2,full text
+G022,held-out machine,N,N,Y,Sec. 2,full text
+G022,held-out material,N,N,Y,Sec. 2,full text
+G022,leakage_risk,low,low,Y,Sec. 2,full text
+G022,calibration,N,N,Y,whole paper,full text
+G022,uncertainty quantified,N,N,Y,whole paper,full text
+G022,uncertainty validated,N,N,Y,whole paper,full text
+G022,robustness,N,N,Y,whole paper,full text
+G022,explanation used,"Y (other: RSM Pareto charts, not applied to ANN)",N (Pareto charts belong to a separate RSM statistical model; no explanation of the ANN),N,"Sec. 4.1, Fig. 4",full text
+G022,explanation checked,N,N,Y,Sec. 4.1,full text
+G022,data public,N,N,Y,whole paper,full text
+G022,code public,N,N,Y,whole paper,full text
+G022,repeats,N,N,Y,whole paper,full text
+G022,variability,N,N,Y,whole paper,full text
+G022,inference timing,N,N,Y,whole paper,full text
+G022,real-time claim,N,N,Y,whole paper,full text
+G022,timing in process,N,N,Y,whole paper,full text
+G022,closed loop,N,N,Y,whole paper,full text
+G022,principal_finding,"test R2 0.988/0.993 (height/area), 0.824 width; test RMSE 0.039 mm, 0.085 mm2, 0.128 mm","R2 0.988/0.824/0.993 (Fig. 6 test fit); test RMSE 0.03939 mm, 0.12817 mm, 0.08546 mm2",Y,"Sec. 4.2, Fig. 6, Table 5, Sec. 5",full text
+G023,eligibility,eligible Y,"eligible (laser-wire DED Al 5356, implemented SVR/RF/XGBoost/GPR, Materials)",Y,"Sec. 2, Sec. 4","full text (Europe PMC XML, PMC13027603)"
+G023,process,DED,DED (laser-wire),Y,Sec. 2,"full text (Europe PMC XML, PMC13027603)"
+G023,task,porosity prediction + parameter optimisation,porosity prediction and parameter mapping,Y,Sec. 4,"full text (Europe PMC XML, PMC13027603)"
+G023,split category,held-out condition (5 validation builds) + random 8:2,random 8:2 (random_state 42) plus 5 validation builds at new parameter combinations,Y,"Sec. 4.1, Tables 8-9","full text (Europe PMC XML, PMC13027603)"
+G023,held-out machine,N,N,Y,Sec. 2,"full text (Europe PMC XML, PMC13027603)"
+G023,held-out material,N,N,Y,Sec. 2,"full text (Europe PMC XML, PMC13027603)"
+G023,leakage_risk,unclear,unclear,Y,Sec. 4.1,"full text (Europe PMC XML, PMC13027603)"
+G023,calibration,N,N,Y,whole paper,"full text (Europe PMC XML, PMC13027603)"
+G023,uncertainty quantified,N,N,Y,Sec. 4,"full text (Europe PMC XML, PMC13027603)"
+G023,uncertainty validated,N,N,Y,whole paper,"full text (Europe PMC XML, PMC13027603)"
+G023,robustness,N,N,Y,whole paper,"full text (Europe PMC XML, PMC13027603)"
+G023,explanation used,"Y (other: response surfaces, ANOVA)",Y (SVR contour and 3D response surfaces),Y,"Sec. 4.3, Fig. 9","full text (Europe PMC XML, PMC13027603)"
+G023,explanation checked,Y (vs single-factor experiments),Y (trend consistency with single-factor experiments; weak),Y,Sec. 4.3,"full text (Europe PMC XML, PMC13027603)"
+G023,data public,N,N,Y,Data Availability Statement,"full text (Europe PMC XML, PMC13027603)"
+G023,code public,N,N,Y,whole paper,"full text (Europe PMC XML, PMC13027603)"
+G023,repeats,Y (repeats_reported True; fixed random_state 42),N (single split with one fixed seed),N,Sec. 4.1,"full text (Europe PMC XML, PMC13027603)"
+G023,variability,N,N,Y,whole paper,"full text (Europe PMC XML, PMC13027603)"
+G023,inference timing,N,N,Y,whole paper,"full text (Europe PMC XML, PMC13027603)"
+G023,real-time claim,N,N,Y,whole paper,"full text (Europe PMC XML, PMC13027603)"
+G023,timing in process,N,N,Y,whole paper,"full text (Europe PMC XML, PMC13027603)"
+G023,closed loop,N,N,Y,whole paper,"full text (Europe PMC XML, PMC13027603)"
+G023,principal_finding,"SVR test R2 0.8960, RMSE 0.19, MAE 0.15; validation max AE 0.514%, mean 0.251%",same,Y,"Sec. 4.2, Table 9","full text (Europe PMC XML, PMC13027603)"
+G024,eligibility,eligible Y,"eligibility uncertain: metal AM with implemented RF/MLR, but venue (IJEDR, IJ Research Organization, rjwave.org) has unverified peer review and the evaluation protocol is not reported",N,Header; Sec. III,full text (publisher PDF)
+G024,process,WAAM,"WAAM (robotic GMAW, Al-4043)",Y,Sec. II,full text (publisher PDF)
+G024,task,single-bead geometry prediction,bead height and width prediction,Y,Sec. III-IV,full text (publisher PDF)
+G024,split category,not reported,not reported,Y,Sec. III,full text (publisher PDF)
+G024,held-out machine,N,N,Y,Sec. II,full text (publisher PDF)
+G024,held-out material,N,N,Y,Sec. II,full text (publisher PDF)
+G024,leakage_risk,unclear,unclear,Y,Sec. III,full text (publisher PDF)
+G024,calibration,N,N,Y,whole paper,full text (publisher PDF)
+G024,uncertainty quantified,N,N,Y,whole paper,full text (publisher PDF)
+G024,uncertainty validated,N,N,Y,whole paper,full text (publisher PDF)
+G024,robustness,N,N,Y,whole paper,full text (publisher PDF)
+G024,explanation used,N,N,Y,whole paper,full text (publisher PDF)
+G024,explanation checked,N,N,Y,whole paper,full text (publisher PDF)
+G024,data public,Y,Y (all 50 beads in Table 1),Y,Table 1,full text (publisher PDF)
+G024,code public,N,N,Y,whole paper,full text (publisher PDF)
+G024,repeats,N,N,Y,whole paper,full text (publisher PDF)
+G024,variability,N,N,Y,whole paper,full text (publisher PDF)
+G024,inference timing,N,N,Y,whole paper,full text (publisher PDF)
+G024,real-time claim,Y,"Y (claimed for real-time adaptive slicing, not demonstrated)",Y,"Sec. I, Sec. III, Sec. V",full text (publisher PDF)
+G024,timing in process,N,N,Y,whole paper,full text (publisher PDF)
+G024,closed loop,N,N,Y,whole paper,full text (publisher PDF)
+G024,principal_finding,"RFR R2 0.84, MSE 0.127 vs MLR 0.75, 0.231",same,Y,Table 2,full text (publisher PDF)
+G029,split,not reported,not reported (DNN development deferred to prior study [27]),Y,Sec 2,full text
+G029,heldout_machine,False,False,Y,Sec 2,full text
+G029,heldout_material,False,False,Y,Sec 2,full text
+G029,leakage_risk,unclear,unclear,Y,Sec 2,full text
+G029,calibration,none,none,Y,whole text,full text
+G029,uncertainty_quantified,none,none,Y,Sec 2,full text
+G029,uncertainty_validated,False,False,Y,-,full text
+G029,robustness,none,none,Y,-,full text
+G029,explanation_used,SHAP,SHAP (stated in methods; no SHAP values shown in this paper),Y,Sec 2,full text
+G029,explanation_checked,none,none,Y,Sec 2,full text
+G029,data_public,False,False,Y,Data Availability Statement,full text
+G029,code_public,False,False,Y,-,full text
+G029,repeats,not reported,not reported,Y,Figs 3-7,full text
+G029,variability,False,False,Y,-,full text
+G029,inference_timing,none,none,Y,-,full text
+G029,realtime_claim,N,N,Y,-,full text
+G029,timing_in_process,NA,NA,Y,-,full text
+G029,closed_loop,N,N,Y,-,full text
+G029,process,other (multi-process; metal only 316L SLM),"other (FDM, MJF, SLM, SLA, DMLS; only Kelvin simple lattice is metal 316L SLM)",Y,Sec 3.1-3.5,full text
+G029,task,property prediction and parameter optimisation,"strain prediction as GA fitness, design/process optimisation",Y,Sec 2-3,full text
+G029,principal_finding,"316L Kelvin: strain 1.7e-5 at 4.15 MPa, 6.12% RD",same,Y,Sec 3.3; Conclusions,full text
+G029,eligibility,Y (borderline),borderline: one of five lattices is metal AM; ML model implemented but not evaluated in this paper,Y,Sec 2-3,full text
+G030,split,random only (70/20/10),random only (approx. 70/20/10 in Roboflow; assignment unit not described),Y,Sec 2.2,full text
+G030,heldout_machine,False,False,Y,Sec 2.1,full text
+G030,heldout_material,False,False,Y,Sec 2.1,full text
+G030,leakage_risk,unclear,unclear,Y,Sec 2.2,full text
+G030,calibration,none,none,Y,-,full text
+G030,uncertainty_quantified,none,none,Y,-,full text
+G030,uncertainty_validated,False,False,Y,-,full text
+G030,robustness,none,none,Y,-,full text
+G030,explanation_used,none,none,Y,-,full text
+G030,explanation_checked,none,none,Y,-,full text
+G030,data_public,False,False,Y,Data Availability Statement,full text
+G030,code_public,False,False,Y,-,full text
+G030,repeats,not reported,not reported (one run per epoch setting),Y,Sec 3,full text
+G030,variability,False,False,Y,-,full text
+G030,inference_timing,none (hardware only),none (hardware only: Tesla V100 on Colab),Y,Sec 2.4,full text
+G030,realtime_claim,N,N for this system (real-time only discussed for YOLO in general),Y,Sec 1,full text
+G030,timing_in_process,NA,NA,Y,-,full text
+G030,closed_loop,N,N,Y,-,full text
+G030,process,LPBF,LPBF (powder spreading on custom powder-feeding test rig),Y,Sec 2.1,full text
+G030,task,defect detection (powder spreading),"defect detection (super-elevation, recoater vibration, recoater streaking)",Y,Sec 2.2,full text
+G030,principal_finding,217-epoch model; vibration reliable; super-elevation 93%; streaking 62% (44% at 600 epochs),same,Y,"Sec 3, Fig 6",full text
+G031,split,held-out condition (leave-two-experiments-out),"held-out condition (4 runs, each testing on 2 experiments with distinct parameters not used for training)",Y,"Sec 2.3-2.4; Tables 1, 3",full text
+G031,heldout_machine,False,False,Y,Sec 2.1,full text
+G031,heldout_material,False,True,N,Table 1; Table 3 run 4; Table 2,full text
+G031,leakage_risk,low,low,Y,Sec 2.3,full text
+G031,calibration,none,none,Y,-,full text
+G031,uncertainty_quantified,none,none,Y,-,full text
+G031,uncertainty_validated,False,False,Y,-,full text
+G031,robustness,changed-condition test,changed-condition test (held-out experiments with different parameters/substrate/material),Y,Tables 2-3; Sec 4,full text
+G031,explanation_used,none,none,Y,-,full text
+G031,explanation_checked,none,none,Y,-,full text
+G031,data_public,False,False,Y,Data Availability Statement,full text
+G031,code_public,True,True,Y,Data Availability Statement; Supplementary,full text
+G031,repeats,4 CV runs,"4 cross-validation runs (folds, not repeated seeds)",Y,Table 3,full text
+G031,variability,False,False,Y,Table 2,full text
+G031,inference_timing,none,none,Y,-,full text
+G031,realtime_claim,N,N,Y,-,full text
+G031,timing_in_process,NA,NA,Y,-,full text
+G031,closed_loop,N,N,Y,-,full text
+G031,process,LPBF,LPBF (in-situ synchrotron X-ray of laser melting),Y,Sec 2.1,full text
+G031,task,keyhole segmentation,keyhole segmentation,Y,Sec 1-2,full text
+G031,principal_finding,"avg IoU 0.9124, BF 0.9281; lowest dataset 3 IoU 0.8333",same,Y,Table 2,full text
+G032,split,held-out condition (15/3 walls per synergy),"random only / unspecified sample-level split (15 training, 3 walls used as validation set for early stopping; selection not described)",N,"Results and Discussion, ANN paragraph",full text
+G032,heldout_machine,False,False,Y,-,full text
+G032,heldout_material,False,False,Y,-,full text
+G032,leakage_risk,low,low,Y,ANN paragraph,full text
+G032,calibration,none,none,Y,-,full text
+G032,uncertainty_quantified,none,none,Y,-,full text
+G032,uncertainty_validated,False,False,Y,-,full text
+G032,robustness,none,none,Y,-,full text
+G032,explanation_used,none,none,Y,-,full text
+G032,explanation_checked,none,none,Y,-,full text
+G032,data_public,False,False,Y,-,full text
+G032,code_public,False,False,Y,-,full text
+G032,repeats,not reported,not reported,Y,-,full text
+G032,variability,False,False,Y,-,full text
+G032,inference_timing,none,none,Y,-,full text
+G032,realtime_claim,N,N,Y,-,full text
+G032,timing_in_process,NA,NA,Y,-,full text
+G032,closed_loop,N,N,Y,-,full text
+G032,process,WAAM,"WAAM (MIG/CMT, Al 5356)",Y,Abstract; Methods,full text
+G032,task,parameter optimisation,parameter optimisation (porosity and visual quality),Y,ANN paragraph,full text
+G032,principal_finding,"porosity <0.2%, UTS 250-270 MPa; no ANN accuracy",same,Y,Abstract; Table 1; Conclusions,full text
+G032,eligibility,Y (borderline),borderline: ANN implemented but no predictive performance reported; ML minor component,Y,ANN paragraph,full text
+G035,split,held-out condition (geometry) plus image-level 90/10,"image-level 90/10 (assignment not described) plus held-out geometry test parts (cubes, bevel gear, overhang, bridges)",Y,Sec 2.3; Sec 3.3-3.4,full text
+G035,heldout_machine,False,False,Y,Sec 2.1,full text
+G035,heldout_material,False,False,Y,Sec 2.1,full text
+G035,leakage_risk,high (reference test set),high for the 86-image reference test set (layers of the same 10 cylinders from 7 jobs),Y,Sec 2.3; Sec 3.1,full text
+G035,calibration,none,none,Y,-,full text
+G035,uncertainty_quantified,none,none,Y,-,full text
+G035,uncertainty_validated,False,False,Y,-,full text
+G035,robustness,changed-condition test (geometry),changed-condition test (different geometries; also ablation without augmentation),Y,"Sec 3.3, Fig 10",full text
+G035,explanation_used,none,none,Y,-,full text
+G035,explanation_checked,none,none,Y,-,full text
+G035,data_public,False,False,Y,-,full text
+G035,code_public,False,False,Y,-,full text
+G035,repeats,not reported,not reported,Y,-,full text
+G035,variability,False,False,Y,-,full text
+G035,inference_timing,none,none,Y,-,full text
+G035,realtime_claim,N,N,Y,-,full text
+G035,timing_in_process,NA,NA,Y,-,full text
+G035,closed_loop,N,N,Y,-,full text
+G035,process,LPBF,"LPBF (SLM 500-HL, 316L)",Y,Sec 2.1,full text
+G035,task,defect/anomaly detection via segmentation,"anomaly detection (lack of fusion, overheating, super-elevation) via semantic segmentation",Y,Sec 3.4,full text
+G035,principal_finding,DeepLab v3+ ResNet50 best; global acc ~0.95; MeanIoU/MeanBF >0.8 on new geometries; agreement with roughness and super-elevation,same (note all three networks had global accuracy ~0.95; ResNet50 best on MeanIoU/MeanBF),Y,"Sec 3.1, Fig 3; Sec 3.3, Figs 10-11; Sec 3.4, Fig 14",full text
+G038,split,random only (60/20/20),random/unspecified sample-level 60/20/20 split (assignment not stated),Y,Sec 3.2,full text
+G038,heldout_machine,False,False,Y,-,full text
+G038,heldout_material,False,False,Y,-,full text
+G038,leakage_risk,low,low,Y,Sec 2; Table 2,full text
+G038,calibration,none,none,Y,-,full text
+G038,uncertainty_quantified,none,none,Y,-,full text
+G038,uncertainty_validated,False,False,Y,-,full text
+G038,robustness,none,none,Y,-,full text
+G038,explanation_used,none,none,Y,-,full text
+G038,explanation_checked,none,none,Y,-,full text
+G038,data_public,True,"partial (Table 2 lists energy density, width and Af for all 30 samples; parameters in Table 1)",Y,Tables 1-2,full text
+G038,code_public,False,False,Y,-,full text
+G038,repeats,not reported,not reported,Y,-,full text
+G038,variability,False,False,Y,-,full text
+G038,inference_timing,none,none,Y,-,full text
+G038,realtime_claim,N,N,Y,-,full text
+G038,timing_in_process,NA,NA,Y,-,full text
+G038,closed_loop,N,N,Y,-,full text
+G038,process,LPBF,LPBF (NiTiHf),Y,Sec 2,full text
+G038,task,property prediction (Af temperature and width),property prediction (Af and sample width),Y,Sec 3.2,full text
+G038,task_cat,melt-pool or thermal monitoring,property or microstructure prediction,N,Sec 3.2; Table 2,full text
+G038,principal_finding,"MLP test R2 0.976 width, 0.979 TT; RBF ~0.988-0.989","same (RBF test R2 0.98846 width, 0.98924 TT)",Y,Tables 3-4,full text
+G039,split,random only (pointwise 70/30),"random only (all height points pooled, shuffled, 70/30; 15% of training for validation)",Y,Sec 3 (p. 909-910),full text
+G039,heldout_machine,False,False,Y,Sec 2.1,full text
+G039,heldout_material,False,False,Y,-,full text
+G039,leakage_risk,high,high (neighbouring points of the same specimen surface in train and test; specimen-level predictions on trained specimens),Y,Sec 3; Tables 10-13,full text
+G039,calibration,none,none,Y,-,full text
+G039,uncertainty_quantified,none,none,Y,-,full text
+G039,uncertainty_validated,False,False,Y,-,full text
+G039,robustness,none,none,Y,-,full text
+G039,explanation_used,none,none,Y,-,full text
+G039,explanation_checked,none,none,Y,-,full text
+G039,data_public,False,False,Y,Data Availability,full text
+G039,code_public,False,False,Y,-,full text
+G039,repeats,not reported,not reported,Y,-,full text
+G039,variability,False,False,Y,-,full text
+G039,inference_timing,none,none,Y,-,full text
+G039,realtime_claim,N,N,Y,-,full text
+G039,timing_in_process,NA,NA,Y,-,full text
+G039,closed_loop,N,N,Y,-,full text
+G039,process,LPBF,"LPBF (Renishaw AM400, AlSi10Mg)",Y,Sec 2.1,full text
+G039,task,surface roughness prediction,surface topography/roughness prediction,Y,Sec 3,full text
+G039,principal_finding,RMSE 2.5-3.5 um; Sa within 5% for most; Sp/Sv 5-20%,"same (set 1 Sa errors mostly 5-10%, consistent with authors' ""majority of cases"")",Y,Sec 4; Tables 10-13; Conclusions,full text
+G045,split,random only (random layers within parts),"random only (30 of 40 layers per part, or 300 of 400 layers pooled, random; repeated 5 times)",Y,Sec 2 testing scenarios (p. 14-15),"full text (accepted manuscript, NSF PAR)"
+G045,heldout_machine,False,False,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,heldout_material,False,False,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,leakage_risk,high,high (layers of the same coupon in training and test),Y,p. 14-15,"full text (accepted manuscript, NSF PAR)"
+G045,calibration,none,none,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,uncertainty_quantified,none,none,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,uncertainty_validated,False,False,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,robustness,none,none,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,explanation_used,none,none,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,explanation_checked,none,none,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,data_public,False,False,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,code_public,False,False,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,repeats,5 repetitions,5 repetitions (described as 5-fold),Y,p. 15; Table 5,"full text (accepted manuscript, NSF PAR)"
+G045,variability,True,True (SD in Table 5),Y,Table 5,"full text (accepted manuscript, NSF PAR)"
+G045,inference_timing,none,none,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,realtime_claim,N,N (abstract mentions online analytics but no real-time claim or timing),Y,Abstract,"full text (accepted manuscript, NSF PAR)"
+G045,timing_in_process,NA,NA,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,closed_loop,N,N,Y,-,"full text (accepted manuscript, NSF PAR)"
+G045,process,DED,DED (Ti-6Al-4V),Y,Sec 2.1,"full text (accepted manuscript, NSF PAR)"
+G045,task,defect detection (lack-of-fusion severity),layer-wise lack-of-fusion severity classification,Y,Sec 2.2-3.2,"full text (accepted manuscript, NSF PAR)"
+G045,principal_finding,known conditions ~85%/70%; unknown 40-44%/21-30%; raw statistical features 87.9%/69.4%,same,Y,Table 5,"full text (accepted manuscript, NSF PAR)"
+G046,split,held-out condition (simulated transfer cases),held-out condition in simulation only (new parameter sets 350 W/5 mm/s and 750 W/15 mm/s; temporal extrapolation),Y,Sec 4.2-4.3,"full text (accepted manuscript, NSF PAR)"
+G046,heldout_machine,False,False,Y,-,"full text (accepted manuscript, NSF PAR)"
+G046,heldout_material,False,False,Y,-,"full text (accepted manuscript, NSF PAR)"
+G046,leakage_risk,low,low (validated against independent FEA fields),Y,Sec 4,"full text (accepted manuscript, NSF PAR)"
+G046,simulation_data_only,False,True,N,Sec 2.2; Sec 4; Data availability,"full text (accepted manuscript, NSF PAR)"
+G046,calibration,none,none,Y,-,"full text (accepted manuscript, NSF PAR)"
+G046,uncertainty_quantified,none,none,Y,-,"full text (accepted manuscript, NSF PAR)"
+G046,uncertainty_validated,False,False,Y,-,"full text (accepted manuscript, NSF PAR)"
+G046,robustness,changed-condition test (simulated),changed-condition test (simulated new parameters; extrapolation in time),Y,Sec 4.2-4.3; Figs 9-10,"full text (accepted manuscript, NSF PAR)"
+G046,explanation_used,physics-based/interpretable (PINN),"none (physics-informed loss is a modelling constraint, not an explanation of predictions)",N,Sec 3,"full text (accepted manuscript, NSF PAR)"
+G046,explanation_checked,none,none,Y,-,"full text (accepted manuscript, NSF PAR)"
+G046,data_public,False,False,Y,Data availability,"full text (accepted manuscript, NSF PAR)"
+G046,code_public,False,False,Y,-,"full text (accepted manuscript, NSF PAR)"
+G046,repeats,not reported,not reported,Y,-,"full text (accepted manuscript, NSF PAR)"
+G046,variability,False,False,Y,-,"full text (accepted manuscript, NSF PAR)"
+G046,inference_timing,none (training times only),"none (training 21 min, 8.2 h; transfer retraining 51 s and 2.6 min; no inference time)",Y,"Sec 3; Sec 4.1, 4.3","full text (accepted manuscript, NSF PAR)"
+G046,realtime_claim,Y,Y (online soft sensor; suitability for real-time predictions),Y,Abstract; Sec 5,"full text (accepted manuscript, NSF PAR)"
+G046,timing_in_process,N,N,Y,-,"full text (accepted manuscript, NSF PAR)"
+G046,closed_loop,N,N,Y,-,"full text (accepted manuscript, NSF PAR)"
+G046,process,DED (LMD),"DED (laser metal deposition, simulated 316L)",Y,Sec 2,"full text (accepted manuscript, NSF PAR)"
+G046,task,thermal history and stress prediction,thermal field and thermal stress prediction (PINN surrogate),Y,Sec 4,"full text (accepted manuscript, NSF PAR)"
+G046,principal_finding,RMSE 2.03 K without labels; partial FEA improves stress to ~0.8 s; transfer ~3 min; peak stress underpredicted at higher energy density,same,Y,Sec 4.1-4.3; Sec 5,"full text (accepted manuscript, NSF PAR)"
+G046,eligibility,"Y (borderline, simulation only)",borderline: simulation-only data with implemented ML; no experimental data,Y,Sec 2.2,"full text (accepted manuscript, NSF PAR)"
+G037,split,held-out condition (4 new validation builds) plus random 8:2,"random 8:2 (52/13) after duplication, plus 4 new parameter sets fabricated and measured",Y,Sec 2.2; Sec 3.2; Table 4,full text
+G037,heldout_machine,False,False,Y,Sec 2.1,full text
+G037,heldout_material,False,False,Y,-,full text
+G037,leakage_risk,high,high (six low-density points duplicated before the 52/13 split),Y,Sec 2.2; Sec 3.2,full text
+G037,calibration,none,none,Y,-,full text
+G037,uncertainty_quantified,Gaussian process,Gaussian process (95% interval),Y,Sec 3.3,full text
+G037,uncertainty_validated,True,True (measured densities of 4 new samples fall within GPR 95% interval),Y,Sec 3.3; Table 4; Fig 7C,full text
+G037,robustness,none,none,Y,-,full text
+G037,explanation_used,none,none,Y,-,full text
+G037,explanation_checked,none,none,Y,-,full text
+G037,data_public,False,False,Y,-,full text
+G037,code_public,False,False,Y,-,full text
+G037,repeats,not reported,not reported,Y,-,full text
+G037,variability,True,False (no SD/CI/range of model performance; +/- values only for mechanical tests in Table 5; GPR interval is predictive uncertainty),N,Table 3; Table 5,full text
+G037,inference_timing,none,none,Y,-,full text
+G037,realtime_claim,N,N,Y,-,full text
+G037,timing_in_process,NA,NA,Y,-,full text
+G037,closed_loop,N,N,Y,-,full text
+G037,process,EB-PBF,"EB-PBF (SEBM, Sailong-Y150)",Y,Sec 2.1,full text
+G037,task,relative density prediction and parameter optimisation,same,Y,Sec 3.2-3.3,full text
+G037,input_cat,"acoustic, photodiode or other signals",process parameters or features,N,Sec 2.2,full text
+G037,principal_finding,"test R2 SVR 0.994, GPR 0.991; 4 new sets 99.52-99.72%, within 0.23 pp",same,Y,Table 3; Table 4,full text
+G047,split,grouped (whole samples 14:4:3),"grouped by physical sample (14:4:3, manually curated)",Y,Sec 3.3 (p. 6),full text
+G047,heldout_machine,False,False,Y,-,full text
+G047,heldout_material,False,False,Y,-,full text
+G047,leakage_risk,low (but test set used for model selection),low for data leakage; best models chosen by mean F1 on test sequences,Y,Sec 3.3; Sec 4.3 (p. 10),full text
+G047,calibration,calibration metric (MSE of probability vectors),"calibration metric (MSE of predicted label probabilities, described as indication of model calibration)",Y,Sec 5 (p. 11),full text
+G047,uncertainty_quantified,none,none,Y,-,full text
+G047,uncertainty_validated,False,False,Y,-,full text
+G047,robustness,none,none,Y,-,full text
+G047,explanation_used,none,none,Y,-,full text
+G047,explanation_checked,none,none,Y,-,full text
+G047,data_public,False,False,Y,Data availability statement,full text
+G047,code_public,False,False,Y,-,full text
+G047,repeats,not reported,not reported (one training per configuration),Y,Sec 4.3,full text
+G047,variability,True,"True (box plots with median, IQR, extrema across hyperparameter configurations, Supplementary)",Y,Sec 5.1; Supplementary,full text
+G047,inference_timing,Y (0.32-2.08 ms per sequence),"Y (Table 4, ms per sequence; ~2 ms per 0.5 s sequence in abstract)",Y,Table 4; Abstract,full text
+G047,realtime_claim,Y,Y (could facilitate real-time assessment),Y,Sec 5.3; Sec 6,full text
+G047,timing_in_process,N,N (offline on training PC),Y,Sec 5.3,full text
+G047,closed_loop,N,N,Y,-,full text
+G047,process,DED,DED-LB (Ti-6Al-4V thin walls),Y,Sec 3.1,full text
+G047,task,defect detection (multi-label build condition),multi-label build-condition classification,Y,Sec 3.3,full text
+G047,principal_finding,multi-branch F1 0.95-0.96; CLAMIR 0.92-0.94; off-axis 0.72-0.76; ~2 ms inference,same,Y,Table 3; Figs 12-17; Table 4,full text
+G048,split,"random only (5-fold, construction not reported)","k-fold, fold construction not reported (665 windows from step-sequence layers)",Y,Sec 2.4; Sec 3.1; Table 1,"full text (repository copy, CC BY)"
+G048,heldout_machine,False,False,Y,-,"full text (repository copy, CC BY)"
+G048,heldout_material,False,False,Y,-,"full text (repository copy, CC BY)"
+G048,leakage_risk,unclear,unclear,Y,Sec 2.4; Sec 3.1,"full text (repository copy, CC BY)"
+G048,calibration,none,none,Y,-,"full text (repository copy, CC BY)"
+G048,uncertainty_quantified,other (Gaussian residual model),"Gaussian residual model (mean -0.06, sigma 0.48 mm) propagated to quality index",Y,Sec 2.5; Sec 3.1; Fig 4,"full text (repository copy, CC BY)"
+G048,uncertainty_validated,False,False (sigma estimated from the same residuals; no coverage check),Y,Sec 3.1,"full text (repository copy, CC BY)"
+G048,robustness,none,none,Y,-,"full text (repository copy, CC BY)"
+G048,explanation_used,none,none,Y,-,"full text (repository copy, CC BY)"
+G048,explanation_checked,none,none,Y,-,"full text (repository copy, CC BY)"
+G048,data_public,False,False,Y,-,"full text (repository copy, CC BY)"
+G048,code_public,False,False,Y,-,"full text (repository copy, CC BY)"
+G048,repeats,5 CV folds; 3 walls per condition,same,Y,Table 1; Sec 2.1,"full text (repository copy, CC BY)"
+G048,variability,True,True (MAE 1.13 +/- 0.05 mm across folds; SD across 3 walls),Y,Table 1; Sec 3.2,"full text (repository copy, CC BY)"
+G048,inference_timing,none,none,Y,-,"full text (repository copy, CC BY)"
+G048,realtime_claim,Y,Y (online indirect measure; real-time CTWD modulation),Y,Sec 1; Sec 2.5,"full text (repository copy, CC BY)"
+G048,timing_in_process,N,N (no inference timing; whether CNN ran online not stated),Y,Sec 3.3,"full text (repository copy, CC BY)"
+G048,closed_loop,Y,"Y for heat-input control, but the controller uses measured heat input (Eq. 1, 4); the 1D-CNN is not in the loop",N,Sec 2.3; Sec 2.4,"full text (repository copy, CC BY)"
+G048,process,WAAM,"WAAM (GMAW short-circuit, Invar 36)",Y,Sec 2.1,"full text (repository copy, CC BY)"
+G048,task,process control with DL soft sensing of CTWD,same,Y,Sec 2.3-2.5,"full text (repository copy, CC BY)"
+G048,input_cat,images or video,"acoustic, photodiode or other signals (welding current and voltage)",N,Sec 2.1; Sec 2.4,"full text (repository copy, CC BY)"
+G048,principal_finding,CV MAE 1.13 +/- 0.05 mm; heat-input SD 7.2 -> 1.6 J/mm across 3 walls,same,Y,Table 1; Sec 3.2,"full text (repository copy, CC BY)"
+G049,split,"random only (stratified shuffle 70/30, 50 repeats)","random only (stratified shuffle split on energy density, 70/30, 50 trainings)",Y,Sec II.C,full text
+G049,heldout_machine,False,False,Y,Sec II.A,full text
+G049,heldout_material,False,False,Y,-,full text
+G049,leakage_risk,low,low (one cube per parameter set),Y,Sec II.A,full text
+G049,simulation_data_only,True,False,N,Sec II.A; Table I; Sec V,full text
+G049,calibration,none,none,Y,-,full text
+G049,uncertainty_quantified,none,none,Y,-,full text
+G049,uncertainty_validated,False,False,Y,-,full text
+G049,robustness,none,none,Y,-,full text
+G049,explanation_used,none,none,Y,Fig 9,full text
+G049,explanation_checked,none,none,Y,-,full text
+G049,data_public,True,"partial (parameters in Table I, densities plotted in Fig 2, from published Ref. 26; no availability statement found)",Y,Table I; Fig 2,full text
+G049,code_public,False,False,Y,-,full text
+G049,repeats,50 training runs,50 training runs,Y,Sec II.C; Table III,full text
+G049,variability,False,False (only mean RMSE over 50 runs),Y,Table III,full text
+G049,inference_timing,none,none,Y,-,full text
+G049,realtime_claim,N,N,Y,-,full text
+G049,timing_in_process,NA,NA,Y,-,full text
+G049,closed_loop,N,N,Y,-,full text
+G049,process,LPBF,"LPBF (PBF-LB/M, AlSi10Mg)",Y,Sec II.A,full text
+G049,task,relative density prediction,relative density prediction,Y,Sec II.C,full text
+G049,principal_finding,test RMSE 0.75% vs 0.91% with simulated melt-pool inputs,same (training 0.67 and 0.65),Y,Table III; Sec IV,full text
+G050,split,random only (melt pool 70/30; density CV training error only),"random only (melt pool 70/30 hold-out of 133 simulated points; density trained on all 33, tenfold CV training error, qualitative generalisation)",Y,Sec 2.2,full text
+G050,heldout_machine,False,False,Y,-,full text
+G050,heldout_material,False,False,Y,-,full text
+G050,leakage_risk,low,low (independent parameter combinations); density lacks held-out test,Y,Sec 2.2,full text
+G050,simulation_data_only,False,False (density targets are 33 experimental literature points),Y,Sec 2,full text
+G050,calibration,none,none,Y,-,full text
+G050,uncertainty_quantified,none,none,Y,-,full text
+G050,uncertainty_validated,False,False,Y,-,full text
+G050,robustness,none,none,Y,-,full text
+G050,explanation_used,none,none,Y,Table 2,full text
+G050,explanation_checked,none,none,Y,-,full text
+G050,data_public,False,False,Y,Data availability statement,full text
+G050,code_public,False,False,Y,-,full text
+G050,repeats,tenfold CV,tenfold CV (training error),Y,Sec 2.2; Tables 3-4,full text
+G050,variability,True,True (training RMSE +/- SD),Y,Tables 3-4,full text
+G050,inference_timing,none,none,Y,-,full text
+G050,realtime_claim,N,N,Y,-,full text
+G050,timing_in_process,NA,NA,Y,-,full text
+G050,closed_loop,N,N,Y,-,full text
+G050,process,LPBF,LPBF (Ti-6Al-4V),Y,Sec 2,full text
+G050,task,melt-pool geometry and density prediction,same,Y,Sec 3,full text
+G050,principal_finding,"RFR lowest melt-pool test RMSE avg 9.0 um (width 0.5, depth 1.1); MLP density training RMSE 0.20 pp",same,Y,Tables 3-4,full text
+G051,split,"random only (fivefold CV, unit not reported)",k-fold (fivefold CV; fold unit not stated; no separate test set),Y,Sec 4.1,full text
+G051,heldout_machine,False,False,Y,-,full text
+G051,heldout_material,False,False,Y,-,full text
+G051,leakage_risk,unclear,unclear,Y,Sec 4.1,full text
+G051,calibration,none,none,Y,-,full text
+G051,uncertainty_quantified,none,none,Y,"Fig 8, 10",full text
+G051,uncertainty_validated,False,False,Y,-,full text
+G051,robustness,none,none,Y,-,full text
+G051,explanation_used,physics-based (physics-informed loss),none (thermal-expansion loss constraint is not an explanation method),N,Sec 3; Sec 4.2.2,full text
+G051,explanation_checked,none,none,Y,-,full text
+G051,data_public,False,False,Y,Data Availability Statement,full text
+G051,code_public,False,False,Y,-,full text
+G051,repeats,5 CV folds,5 CV folds,Y,Sec 4.1,full text
+G051,variability,True,"True (SD in Tables 3-5; 95% CI across folds in Figs 8, 10)",Y,Tables 3-5,full text
+G051,inference_timing,none (training ~1 min/fold),none (training time only),Y,Sec 4.1,full text
+G051,realtime_claim,N,N,Y,-,full text
+G051,timing_in_process,NA,NA,Y,-,full text
+G051,closed_loop,N,N,Y,-,full text
+G051,process,WAAM,"WAAM (WA-DED, M250)",Y,Sec 4.1,full text
+G051,task,distortion prediction,weld bead distortion prediction,Y,Sec 4.2,full text
+G051,principal_finding,lambda 0.5 best single-layer val RMSE 0.21 mm (WD) vs 0.40 mm unconstrained; multilayer 0.31-0.33 mm,same (Table 4: 0.2102; Table 3 PointNet WD 0.4023; Table 5: 0.314-0.331),Y,Tables 3-5,full text
+G054,split,held-out condition (one calibration case),"held-out condition (13 calibration cases train, 5.3 V horizontal-moving case test)",Y,"Results, Calibration data collection",full text
+G054,heldout_machine,False,False,Y,-,full text
+G054,heldout_material,False,False,Y,-,full text
+G054,leakage_risk,low,"low; hidden-layer and batch-size search reported with IoU (Fig 4a-b), possibly on the test case",Y,Model tuning; Fig 4,full text
+G054,calibration,none,none,Y,-,full text
+G054,uncertainty_quantified,none,none,Y,-,full text
+G054,uncertainty_validated,False,False,Y,-,full text
+G054,robustness,none,none,Y,-,full text
+G054,explanation_used,none,none,Y,-,full text
+G054,explanation_checked,none,none,Y,-,full text
+G054,data_public,True,True (Figshare 10.6084/m9.figshare.25036454),Y,Data availability,full text
+G054,code_public,True,True (Figshare),Y,Code availability,full text
+G054,repeats,not reported,not reported,Y,-,full text
+G054,variability,False,False,Y,Table 1,full text
+G054,inference_timing,none (training ~10 min),none (training time only),Y,Model tuning,full text
+G054,realtime_claim,N,N (10 kHz sensor sampling; no real-time demodulation claim),Y,Summary,full text
+G054,timing_in_process,NA,NA,Y,-,full text
+G054,closed_loop,N,N,Y,-,full text
+G054,process,LPBF,LPBF (demonstration on Ti-6Al-4V substrate); ML trained on heated-wire calibration rig,Y,L-PBF sub-surface measurement,full text
+G054,task,sub-surface thermal measurement (sensor demodulation),same,Y,Fig 1d,full text
+G054,principal_finding,"IoU 0.967, MAE 12.7 degC in C-FBG ROI; 28.8 um resolution at 10 kHz",same,Y,Table 1; Summary,full text
+G055,split,random only (8:1:1 after augmentation),"random/unspecified 8:1:1 after augmentation, frames from a single track",Y,Sec 2.2; Table 1,full text
+G055,heldout_machine,False,False,Y,-,full text
+G055,heldout_material,False,False,Y,-,full text
+G055,leakage_risk,high,high (flipped copies and adjacent frames of one track across subsets),Y,Sec 2.2,full text
+G055,calibration,none,none,Y,-,full text
+G055,uncertainty_quantified,none,none,Y,-,full text
+G055,uncertainty_validated,False,False,Y,-,full text
+G055,robustness,none,none,Y,-,full text
+G055,explanation_used,none,none,Y,-,full text
+G055,explanation_checked,none,none,Y,-,full text
+G055,data_public,False,False,Y,Data Availability Statement,full text
+G055,code_public,False,False,Y,-,full text
+G055,repeats,not reported,not reported,Y,-,full text
+G055,variability,False,False,Y,-,full text
+G055,inference_timing,none (hardware only),none (hardware only),Y,Sec 3,full text
+G055,realtime_claim,N,N,Y,-,full text
+G055,timing_in_process,NA,NA,Y,-,full text
+G055,closed_loop,N,N,Y,-,full text
+G055,process,DED (laser cladding),"DED (laser cladding, iron-based powder)",Y,Sec 2.1,full text
+G055,task,"melt-pool monitoring (fusion, frame interpolation)",same,Y,Sec 3-4,full text
+G055,principal_finding,MTVFI best SSIM (IFRNet best PSNR); fusion best on all metrics except PSNR,same (pre-trained MTVFI best PSNR and SSIM in Table 3),Y,Tables 2-4; Sec 4,full text
+G059,split,random only (7:3 images),random only (randomly selected 630/270 images; no validation set),Y,"Experimental setup, after Fig 8",full text (PMC author manuscript)
+G059,heldout_machine,False,False,Y,-,full text (PMC author manuscript)
+G059,heldout_material,False,False,Y,-,full text (PMC author manuscript)
+G059,leakage_risk,high,high (images of the same specimen surface split at random),Y,Experimental setup,full text (PMC author manuscript)
+G059,calibration,none,none,Y,-,full text (PMC author manuscript)
+G059,uncertainty_quantified,none,none,Y,-,full text (PMC author manuscript)
+G059,uncertainty_validated,False,False,Y,-,full text (PMC author manuscript)
+G059,robustness,none,none,Y,-,full text (PMC author manuscript)
+G059,explanation_used,none,none,Y,-,full text (PMC author manuscript)
+G059,explanation_checked,none,none,Y,-,full text (PMC author manuscript)
+G059,data_public,False,False,Y,-,full text (PMC author manuscript)
+G059,code_public,False,False,Y,-,full text (PMC author manuscript)
+G059,repeats,not reported,not reported,Y,-,full text (PMC author manuscript)
+G059,variability,False,False,Y,-,full text (PMC author manuscript)
+G059,inference_timing,Y (65 fps),Y (65 fps in Table 3),Y,Table 3,full text (PMC author manuscript)
+G059,realtime_claim,Y,Y (fast speed; applicable to online detection),Y,Abstract; Network structure optimization,full text (PMC author manuscript)
+G059,timing_in_process,N,N (ex-situ microscope images),Y,Experimental setup,full text (PMC author manuscript)
+G059,closed_loop,N,N,Y,-,full text (PMC author manuscript)
+G059,process,EB-PBF,"EB-PBF (Arcam A2X electron beam, Ti-6Al-4V)",Y,Experimental setup,full text (PMC author manuscript)
+G059,task,"defect detection (balling, porosity, cracking)",same (object detection),Y,Table 3,full text (PMC author manuscript)
+G059,principal_finding,mAP 82.5% (85.7/91.7/70.0) at 65 fps vs 72.1% and 55 fps for YOLOv3,same,Y,Table 3,full text (PMC author manuscript)
+G018_rep61,split,held-out condition (held-out parameter sets),"unspecified sample-level split (75/25; SVR 13/3, RFR 12/4, ANN 12/4; selection not described)",N,"Predictive modeling: NN, SVR, RFR",full text (PMC)
+G018_rep61,heldout_machine,False,False,Y,Material and equipment,full text (PMC)
+G018_rep61,heldout_material,False,False,Y,-,full text (PMC)
+G018_rep61,leakage_risk,low,low (one printed sample per parameter set; RFR tree count chosen on test error),Y,RFR section,full text (PMC)
+G018_rep61,calibration,none,none,Y,-,full text (PMC)
+G018_rep61,uncertainty_quantified,none,none,Y,Results discussion,full text (PMC)
+G018_rep61,uncertainty_validated,False,False,Y,-,full text (PMC)
+G018_rep61,robustness,none,none,Y,-,full text (PMC)
+G018_rep61,explanation_used,none (Taguchi/ANOVA/FAST not ML),none for ML models,Y,Tables 5-12,full text (PMC)
+G018_rep61,explanation_checked,none,none,Y,-,full text (PMC)
+G018_rep61,data_public,True,partial (parameter sets and measured outputs tabulated in Tables 3-11),Y,Tables 3-11,full text (PMC)
+G018_rep61,code_public,False,False,Y,Supplementary Appendix SA,full text (PMC)
+G018_rep61,repeats,not reported,not reported,Y,-,full text (PMC)
+G018_rep61,variability,False,False,Y,-,full text (PMC)
+G018_rep61,inference_timing,none,none,Y,-,full text (PMC)
+G018_rep61,realtime_claim,N,N,Y,-,full text (PMC)
+G018_rep61,timing_in_process,NA,NA,Y,-,full text (PMC)
+G018_rep61,closed_loop,N,N,Y,-,full text (PMC)
+G018_rep61,process,LPBF,LPBF (EOS M270; paper says PBF),Y,Material and equipment,full text (PMC)
+G018_rep61,task,"property prediction (Ra, UTS) and DoE optimisation",same,Y,Predictive modeling,full text (PMC)
+G018_rep61,principal_finding,"ANN test 18.24% Ra, 6.19% UTS; SVR 20.18%; RFR 23-27%; MIMO 27.58%/8.51%; 99.31% density, 90-105 J/mm3",same,Y,Tables 13-14; Conclusions; Fig 9,full text (PMC)
+G054,input_cat,images or video,"acoustic, photodiode or other signals (C-FBG optical reflection spectrum; IR images are only training targets)",N,Fig 1d; Methods,full text
+F049_rep62,eligibility,eligible Y,"eligible (LPBF of Ti10Mo6Cu; GBDT regression implemented in Orange Data Mining and compared with kNN and DT; peer-reviewed research article in Discover Materials, not a review; data reused from data article [22])",Y,Abstract p.1; Sec. 1.1 p.2; Sec. 2.1 p.4; Sec. 3.1 and Table 2 p.7-8; Table 5 p.13,full text (publisher PDF)
+F049_rep62,process,LPBF,same (LPBF),Y,Abstract p.1; Sec. 2.1 p.4,full text (publisher PDF)
+F049_rep62,material,Ti10Mo6Cu (blended elemental powders),"same (Ti10Mo6Cu, a mechanical blend of elemental Ti, Mo and Cu powders, not pre-alloyed)",Y,Sec. 2.2 p.6; Fig. 3 p.6,full text (publisher PDF)
+F049_rep62,task,"track geometry prediction (width, height, depth)","same (regression of average track width from top and cross-section views, average plotted width, average track height labelled 'Avg Track (Plotted)', and average depth; Sec. 3.1 also names surface roughness as a target, but no result is reported for it)",Y,Abstract p.1; Sec. 3.1 p.7; Table 4 p.10; Sec. 4.2 p.10-11; Fig. 8 p.11,full text (publisher PDF)
+F049_rep62,data_size,120 conditions in the source dataset; 72 complete samples modelled,"same (120 unique power-speed conditions in the source dataset; 72 complete samples modelled). The test-set size is not stated, and Figs. 8 and 9 plot 48 points per output (indices 0 to 47, counted from the rendered p.12) without saying which samples are shown.",Y,Sec. 2.1 p.4; Sec. 3.1 p.8; Fig. 8 p.11; Fig. 9 p.12,full text (publisher PDF)
+F049_rep62,independent_units,72 single tracks with distinct power and speed; one third-party dataset,"same in substance (72 complete fused-track samples from a dataset of 120 conditions, each a unique laser power and scanning speed combination; one third-party dataset [22]; one powder blend; machine not named). The paper says 'fused track' and never 'single', and the link of each of the 72 samples to a distinct condition follows from Sec. 2.1 and Sec. 3.1 rather than being stated outright.",Y,Sec. 2.1 p.4; Sec. 2.2 p.6; Sec. 3.1 p.8; Data availability p.15,full text (publisher PDF)
+F049_rep62,split category,random only (single random 80/20 split),random only (one random 80/20 train/test split of 72 samples in Orange Data Mining; no validation set and no cross-validation described),Y,Sec. 3.1 p.8,full text (publisher PDF)
+F049_rep62,held-out machine,N,N,Y,Sec. 2.1 p.4; Sec. 3.1 p.8,full text (publisher PDF)
+F049_rep62,held-out material,N,N,Y,Sec. 2.2 p.6; Sec. 3.1 p.8,full text (publisher PDF)
+F049_rep62,leakage_risk,unclear,"low (72 samples, each one LPBF condition with a unique laser power and scanning speed, randomly split 80/20, a split at independent units; the GBDT figures plot 48 points per output, which the paper does not relate to the test set)",N,Sec. 2.1 p.4; Sec. 3.1 p.8; Fig. 8 p.11; Fig. 9 p.12,full text (publisher PDF)
+F049_rep62,calibration,N,"none (only RMSE, MAE, R2 and CVRMSE are reported)",Y,Sec. 3.2 and Table 3 p.8-9; whole text,full text (publisher PDF)
+F049_rep62,uncertainty quantified,N,"none (the only mention, 'reducing uncertainty' in Sec. 4.2, is rhetorical; no uncertainty estimate is given)",Y,Sec. 4.2 p.12; whole text,full text (publisher PDF)
+F049_rep62,uncertainty validated,N,NA (no uncertainty quantified),Y,whole text,full text (publisher PDF)
+F049_rep62,robustness,N,none. Robustness is asserted from the metrics of the single split; there is no test under changed conditions and no test with input perturbations.,Y,Sec. 4.2 p.10; Sec. 6 p.13; whole text,full text (publisher PDF)
+F049_rep62,explanation used,N (Fig. 7 is a data correlation heatmap),"N (Fig. 7 is a correlation heatmap of the data columns, not an explanation of the model)",Y,Sec. 4.1 p.9; Fig. 7 p.10,full text (publisher PDF)
+F049_rep62,explanation checked,N,"NA (no model explanation used, so there is nothing to check)",Y,whole text; Sec. 4.1 p.9; Fig. 7 p.10,full text (publisher PDF)
+F049_rep62,data public,Y (third-party data article ref. [22]; Mendeley Data per that article),"Y. The data are stated to be freely accessible through the cited data article [22] (Dzogbewu and du Preez, Data Brief 46:108775, 2023). This paper names no repository and does not mention the Mendeley Data deposit, which was not verified here, and the 72-sample modelling subset is not shared.",Y,Data availability p.15; Sec. 2.1 p.4; ref. [22] p.15,full text (publisher PDF)
+F049_rep62,code public,N,not stated (no code availability statement; the Orange workflow is not shared),Y,Data availability and Declarations p.15; whole text,full text (publisher PDF)
+F049_rep62,repeats,N,"not reported (one random 80/20 split; no repeated runs, seeds or cross-validation folds)",Y,Sec. 3.1 p.8; Table 4 p.10; Table 5 p.13,full text (publisher PDF)
+F049_rep62,variability,N,"none (Tables 4 and 5 give single values; Fig. 9 shows per-point error percentages from one evaluation, not variability across runs)",Y,Table 4 p.10; Fig. 9 p.12; Table 5 p.13,full text (publisher PDF)
+F049_rep62,hyperparameters,partial (GBDT in Table 2; kNN and DT not reported),"same (partial: GBDT settings in Table 2, whose column headers are mislabelled 'Measurement tool' and 'Formula'; kNN and DT settings and the tuning procedure not reported)",Y,Sec. 3.1 and Table 2 p.8; Table 5 p.13,full text (publisher PDF)
+F049_rep62,inference timing,N,none (no timing and no hardware reported),Y,whole text,full text (publisher PDF)
+F049_rep62,real-time claim,N (conceptual framework; real-time adaptation as future work),"N. Real-time parameter tuning is attributed only to the proposed framework, which Sec. 1.3 calls theoretical. Sec. 6 states that the study lacks real-time adaptation, and the Abstract and Sec. 6 leave real-time control to future work.",Y,Abstract p.1; Sec. 1.3 p.3-4; Sec. 5 p.12-13; Sec. 6 p.13-14,full text (publisher PDF)
+F049_rep62,timing in process,NA,NA (no real-time claim; no timing reported),Y,whole text,full text (publisher PDF)
+F049_rep62,closed loop,N (conceptual framework only),"N. Closed-loop control is proposed only conceptually, in Sec. 5 and the Fig. 10 schematic; implementation and experimental validation are left to future work.",Y,Sec. 1.3 p.4; Sec. 5 p.12-13; Fig. 10 p.14; Sec. 6 p.13-14,full text (publisher PDF)
+F049_rep62,principal_finding,"GBDT R2 0.9812 (width, top and cross-section), 0.9786 (height), 0.9652 (depth); above kNN and DT","same (GBDT width top + cross-section R2 0.9812, RMSE 0.8547, MAE 0.6231; plotted width R2 0.9745; average track height 'Avg Track (Plotted)' R2 0.9786; depth R2 0.9652; kNN R2 0.8454 to 0.8813; DT R2 0.8761 to 0.9076)",Y,Abstract p.1; Table 4 p.10; Sec. 4.2 p.10-11; Table 5 p.13; Sec. 6 p.13,full text (publisher PDF)
+F049_rep62,limitations / Table 5 CVRMSE,"RMSE/CVRMSE implies different test means across models (depth about 34.2, 32.9, 20.2)","confirmed. Implied test mean = RMSE / CVRMSE x 100. Depth: 34.22 (kNN), 32.92 (DT), 20.24 (GBDT). Width (top + cross-section): 101.46, 99.91, 106.48. Height: 44.54, 42.83, 42.86.",Y,Table 3 p.9; Table 4 p.10; Table 5 p.13,full text (publisher PDF)
+F049_rep62,limitations / data provenance,data from third-party data article ref. [22]; abstract presents the experiments as conducted in the study,"confirmed. The Abstract and Sec. 6 present the experiments as conducted in the study, and Sec. 1.3 says the dataset is provided by it. Sec. 1.1, Sec. 2.1, the Fig. 2-4 captions and the Data availability statement attribute the data to [22].",Y,Abstract p.1; Sec. 1.1 p.2; Sec. 1.3 p.3; Sec. 2.1 p.4; Figs. 2-4 p.5-7; Sec. 6 p.13; Data availability p.15,full text (publisher PDF)
+F049_rep62,limitations / unreported outputs,surface roughness and microhardness named but no results; Table 6 cited but absent,"confirmed. Surface roughness and microhardness are named in the Abstract, Sec. 1.3 and Sec. 6 (surface roughness also in Sec. 3.1), but no results are given. 'Table 6' is cited at the end of the Sec. 5 text on p.13, while the paper contains only Tables 1-5.",Y,Abstract p.1; Sec. 1.3 p.3; Sec. 3.1 p.7; Sec. 5 p.13; Sec. 6 p.13,full text (publisher PDF)
+F049_rep62,citation / authors,"Shams, Al-Baity, Al-Haddad; Discover Materials 5 (2025) 125","Shams OA, Matar Al-Baity HB, Al-Haddad LA; Discover Materials (2025) 5:125; doi 10.1007/s43939-025-00322-7; published online 09 July 2025 (shown on the rendered p.15 only)",Y,p.1; p.15,full text (publisher PDF)
+F003_rep64,eligibility,eligible Y,"eligible (laser powder DED of Inconel 718 with and without ultrasound; implemented PCA, fully connected and convolutional autoencoders, DBSCAN and K-means++ on in-situ high-speed camera images; peer-reviewed research article, not a review)",Y,Abstract; Sec. 3.1; Sec. 4.1; Sec. 4.2,full text (publisher HTML)
+F003_rep64,process,DED,"same (laser powder DED, conventional and ultrasound-assisted)",Y,Abstract; Sec. 3.1; Table 1,full text (publisher HTML)
+F003_rep64,task,melt-pool monitoring (unsupervised discrimination of ultrasound-assisted and conventional DED),same,Y,Abstract; Sec. 4.2.2; Sec. 5.1; Sec. 6,full text (publisher HTML)
+F003_rep64,split category,not reported (no partition),"not reported (no partition; the train dataset of Eq. 13 has m0 = 15,000 images, i.e. 1500 per case in 10 cases, and ARI, CH score and reconstruction accuracy are reported on those images with no held-out set)",Y,Sec. 4.2.2 (Eq. 13); Sec. 5.1; Table 1,full text (publisher HTML)
+F003_rep64,held-out machine,N,N (single SVW80C-3D machining centre),Y,Sec. 3.1,full text (publisher HTML)
+F003_rep64,held-out material,N,N (Inconel 718 powder on #45 steel substrate only),Y,Sec. 3.1; Fig. 3,full text (publisher HTML)
+F003_rep64,leakage_risk,unclear,unclear (no split unit or method stated; clustering and reconstruction scores appear to be computed on the same images used to train the autoencoders),Y,Sec. 4.2.2 (Eq. 13); Sec. 5.1,full text (publisher HTML)
+F003_rep64,calibration,N,"N (the only 'calibration' is of the ultrasonic vibration, Fig. 2A, not of any model)",Y,whole paper; Sec. 3.1; Fig. 2A,full text (publisher HTML)
+F003_rep64,uncertainty quantified,N,"N (only ARI, CH score and reconstruction accuracy reported)",Y,whole paper; Sec. 5.1,full text (publisher HTML)
+F003_rep64,uncertainty validated,N,NA (not quantified),Y,whole paper; Sec. 5.1,full text (publisher HTML)
+F003_rep64,robustness,N (asserted only),N (robustness asserted in the Abstract and Sec. 6 only; no test under changed conditions or defined input perturbations; clustering is run separately at each laser power on that power's data; the symmetric-transformation augmentation in Sec. 2.2 is preprocessing),Y,Abstract; Sec. 2.2; Sec. 5.1; Sec. 6,full text (publisher HTML)
+F003_rep64,explanation used,N,N (3D plots of compressed signals and pixel error maps only; no explanation method),Y,"whole paper; Sec. 4.2.1, Fig. 7; Sec. 4.2.2, Fig. 9; Sec. 5.1, Fig. 10B",full text (publisher HTML)
+F003_rep64,explanation checked,N,N (no explanation method used),Y,whole paper,full text (publisher HTML)
+F003_rep64,data public,N (not stated),"N (no data availability statement; the 7 MB supplementary zip is cited in the text only for Table S1, Figs. S1 to S5 and Movies S1 and S2; zip not inspected)",Y,whole paper; Supplemental material; Disclosure statement; Additional information (Funding),full text (publisher HTML)
+F003_rep64,code public,N,N (no code statement anywhere),Y,whole paper; Disclosure statement; Additional information,full text (publisher HTML)
+F003_rep64,repeats,N,"N (single training configuration; no repeated runs, seeds or folds; the '15 samples randomly selected' in Sec. 4.1 refers to spatter statistics, not model runs)",Y,Sec. 4.1; Sec. 4.2.2 (Fig. 8 caption); Sec. 5.1,full text (publisher HTML)
+F003_rep64,variability,N,"none across repeated training runs, seeds or folds; Fig. 10A shows undefined error bars and per-image scatter of reconstruction accuracy across the 1500 images of each case, which is not counted as variability of results",Y,"Sec. 5.1; Fig. 10A (graphic, full-size image inspected)",full text (publisher HTML)
+F003_rep64,inference timing,N,N (no model run time reported; the only timings are the 0.16 ms image interval in Sec. 3.3 and a 70 ms figure from cited prior work in Sec. 2.2),Y,whole paper; Sec. 2.2; Sec. 3.3,full text (publisher HTML)
+F003_rep64,real-time claim,N (real time refers to image capture),"N (real time refers to high-speed camera capture in Sec. 6, vibration sensing in the Fig. 2 caption, motivation in Secs. 1 and 2.2, and a keyword; the models process the captured images afterwards)",Y,Keywords; Sec. 1; Sec. 2.2; Fig. 2 caption; Sec. 6,full text (publisher HTML)
+F003_rep64,timing in process,NA,NA (no real-time claim for the models and no timing reported),Y,whole paper; Sec. 6,full text (publisher HTML)
+F003_rep64,closed loop,N,"N (control mentioned only as motivation in Sec. 1; Sec. 6 speaks of guiding parameter selection, not feedback control)",Y,whole paper; Sec. 1; Sec. 6,full text (publisher HTML)
+F003_rep64,principal_finding,autoencoder ARI about 1 vs PCA -0.01 to 0.31; reconstruction 94.52% and 90.05%,"ARI: convolutional autoencoder 1.00 at all five laser powers (Fig. 9D); fully connected autoencoder 1.00, 0.98, 0.83, 0.80, 1.00 at 1400, 1200, 1000, 800, 600 W (Fig. 9B; the text says 'approximately 1'); PCA -0.01, 0.22, 0.07, 0.15, 0.31 at 1400 to 600 W (Fig. 7B and Sec. 6; Sec. 5.1 lists the same values in reverse order); average reconstruction accuracy 94.52% (fully connected) and 90.05% (convolutional) over 10 cases",Y,Sec. 5.1; Fig. 7B; Fig. 9B; Fig. 9D; Fig. 10A; Sec. 6,full text (publisher HTML)
